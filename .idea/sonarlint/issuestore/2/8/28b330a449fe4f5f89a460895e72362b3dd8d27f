@@ -1,0 +1,5 @@
+
+Qsquid:S1481"0Remove this unused "fitnessCalc" local variable.(ŸùˆÀÿÿÿÿÿ8ÚóÎôì+
+=squid:S1643"Use a StringBuilder instead.(…Åİšøÿÿÿÿ8ÚóÎôì+
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õ²”Èûÿÿÿÿ8ÚóÎôì+
+=squid:S2131"Use "Byte.toString" instead.(…Åİšøÿÿÿÿ8ÚóÎôì+
