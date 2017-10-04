@@ -11,10 +11,15 @@ import com.ga.simpleGA.utils.FitnessCalc;
 public class Individual {
 
     private static int defaultGeneLength = 64;
-    private byte[] genes = new byte[defaultGeneLength];
+    private byte[]genes;
     private int fitness = 0;
 
     public Individual(){
+        FitnessCalc fitnessCalc = new FitnessCalc();
+        this.genes = new byte[defaultGeneLength];
+    }
+    public Individual(int genesLength){
+        this.genes = new byte[genesLength];
         FitnessCalc fitnessCalc = new FitnessCalc();
     }
 
@@ -63,7 +68,7 @@ public class Individual {
     }
 
     public byte[] getGenes() {
-        return genes;
+        return this.genes;
     }
 
 }
