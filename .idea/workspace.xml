@@ -2,32 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6210a6-ca41-436e-86d3-6ff7b3075d0f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/application/ApplicationSimpleGA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/beans/Individual.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/beans/Population.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/crossover/DavisOrderCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/crossover/MultiPointCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/crossover/OnePointCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/crossover/UniformCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/crossover/WholeArithmeticRecombinationCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/evolution/Algorithm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/interfaces/FitnessCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/mutation/BitFlipMutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/mutation/InversionMutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/mutation/RandomSettingMutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/mutation/SwapMutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/parentselection/FitnessProportionateSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/parentselection/RandomSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/parentselection/RankSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/parentselection/RouletteWheelSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/parentselection/StochasticUniversalSampling.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/parentselection/TounamentSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/selection/AgeBasedSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/selection/FitnessBasedSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ga/simpleGA/utils/FitnessCalc.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/application/ApplicationSimpleGA.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Individual.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Population.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/DavisOrderCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/MultiPointCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/OnePointCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/UniformCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/WholeArithmeticRecombinationCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/evolution/Algorithm.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/interfaces/FitnessCalculator.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/BitFlipMutation.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/BitFlipMutation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/InversionMutation.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/RandomSettingMutation.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/RandomSettingMutation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/SwapMutation.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/SwapMutation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/FitnessProportionateSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RandomSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RankSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RouletteWheelSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RouletteWheelSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/StochasticUniversalSampling.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/TounamentSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TounamentSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/AgeBasedSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/AgeBasedSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/FitnessBasedSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/FitnessBasedSelection.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/utils/FitnessCalc.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Individual.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Individual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/OnePointCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/OnePointCrossOver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +40,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="RouletteWheelSelection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RouletteWheelSelection.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RouletteWheelSelection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
@@ -54,7 +52,7 @@
         </entry>
       </file>
       <file leaf-file-name="StochasticUniversalSampling.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/StochasticUniversalSampling.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -64,7 +62,7 @@
         </entry>
       </file>
       <file leaf-file-name="TounamentSelection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/TounamentSelection.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TounamentSelection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -74,7 +72,7 @@
         </entry>
       </file>
       <file leaf-file-name="RankSelection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RankSelection.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -84,7 +82,7 @@
         </entry>
       </file>
       <file leaf-file-name="RandomSelection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RandomSelection.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -93,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationSimpleGA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/application/ApplicationSimpleGA.java">
+      <file leaf-file-name="ApplicationSimpleGA.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,7 +104,7 @@
         </entry>
       </file>
       <file leaf-file-name="Algorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/evolution/Algorithm.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="106" column="5" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="106" selection-end-column="5" />
@@ -115,21 +113,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnePointCrossOver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/OnePointCrossOver.java">
+      <file leaf-file-name="OnePointCrossOver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MultiPointCrossOver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/MultiPointCrossOver.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -139,13 +137,13 @@
         </entry>
       </file>
       <file leaf-file-name="Individual.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Individual.java">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="379">
               <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1704#1705#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,6 +196,7 @@
         <option value="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RouletteWheelSelection.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Individual.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/OnePointCrossOver.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java" />
       </list>
     </option>
   </component>
@@ -338,7 +337,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
+              <option name="myItemId" value="geneticalgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,245 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parentselection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mutation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evolution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crossover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleGA" />
+              <option name="myItemId" value="geneticalgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -876,7 +637,7 @@
     </configuration>
     <configuration default="false" name="SimpleGA" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.ga.simpleGA.application.ApplicationSimpleGA" />
+      <option name="MAIN_CLASS_NAME" value="com.geneticalgorithm.application.ApplicationSimpleGA" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -913,12 +674,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18198529" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27868852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27868852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -936,7 +698,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -959,7 +720,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/DavisOrderCrossOver.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -967,7 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/AgeBasedSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/AgeBasedSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
@@ -975,7 +736,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/FitnessBasedSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/FitnessBasedSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -983,7 +744,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/FitnessProportionateSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
@@ -991,7 +752,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RouletteWheelSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RouletteWheelSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1001,7 +762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/StochasticUniversalSampling.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1009,7 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/TounamentSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TounamentSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1017,7 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RankSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1025,7 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RandomSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1033,7 +794,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/application/ApplicationSimpleGA.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
@@ -1043,14 +804,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/WholeArithmeticRecombinationCrossOver.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/DavisOrderCrossOver.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1058,7 +819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/FitnessBasedSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/FitnessBasedSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1066,7 +827,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/AgeBasedSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/AgeBasedSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
@@ -1074,7 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/FitnessProportionateSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
@@ -1082,7 +843,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RouletteWheelSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RouletteWheelSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1092,7 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/StochasticUniversalSampling.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1100,7 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/TounamentSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TounamentSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1108,7 +869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RankSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1116,7 +877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RandomSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1132,7 +893,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/utils/FitnessCalc.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
@@ -1144,7 +905,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Population.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
@@ -1152,7 +913,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/evolution/Algorithm.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="24" />
@@ -1160,21 +921,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/interfaces/FitnessCalculator.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Individual.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/application/ApplicationSimpleGA.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
@@ -1192,14 +953,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/interfaces/FitnessCalculator.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Population.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
@@ -1207,7 +968,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/utils/FitnessCalc.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
@@ -1219,57 +980,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/BitFlipMutation.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/BitFlipMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/RandomSettingMutation.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/RandomSettingMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/SwapMutation.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/SwapMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/mutation/InversionMutation.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/UniformCrossOver.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/WholeArithmeticRecombinationCrossOver.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/DavisOrderCrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/FitnessBasedSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1277,7 +1030,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/selection/AgeBasedSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/FitnessBasedSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/AgeBasedSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
@@ -1285,7 +1046,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/FitnessProportionateSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
@@ -1293,7 +1054,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/StochasticUniversalSampling.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1301,7 +1062,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/TounamentSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TounamentSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1309,7 +1070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RankSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1317,17 +1078,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/application/ApplicationSimpleGA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RouletteWheelSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RouletteWheelSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
@@ -1337,7 +1088,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/parentselection/RandomSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1345,7 +1096,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/evolution/Algorithm.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="106" column="5" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="106" selection-end-column="5" />
@@ -1353,18 +1104,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/beans/Individual.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/MultiPointCrossOver.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1372,13 +1123,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/ga/simpleGA/crossover/OnePointCrossOver.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
