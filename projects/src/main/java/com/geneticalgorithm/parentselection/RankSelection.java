@@ -14,7 +14,7 @@ public class RankSelection {
 
     private Individual selectIndividual(Population population) {
 
-       // Population tournament = new Population(this.tournamentSize, false);
+        // Population tournament = new Population(this.tournamentSize, false);
 //        Arrays.sort(tournament.getIndividuals(), new SortIndividualByFitness());
 //
 //        for (int i = 0; i < this.tournamentSize; i++) {
@@ -22,6 +22,7 @@ public class RankSelection {
 //            tournament.getIndividuals()[i] = population.getIndividuals()[randomId];
 //        }
 //        return tournament.getFittest();
-  //  }
+        //  }
+    }
 
 }
