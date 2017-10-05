@@ -1,20 +1,21 @@
 package com.geneticalgorithm.mutation;
 
-
 import com.geneticalgorithm.beans.Individual;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
+ * Implements Scramble Permutation.
+ * A subset of genes is chosen and their values are scrambled or shuffled randomly
+ *
  * @author Jose Gonzalez
  */
-public class InversionMutation {
+public class ScrambleMutation {
     private int minLimit;
     private int maxLimit;
     private int begginingRange;
     private int endRange;
 
-    public InversionMutation( int minLimit, int maxLimit, int beginningRange, int endRange){
+    public ScrambleMutation( int minLimit, int maxLimit, int beginningRange, int endRange){
         this.maxLimit = maxLimit;
         this.minLimit = minLimit;
         this.begginingRange = beginningRange;
@@ -22,11 +23,9 @@ public class InversionMutation {
     }
 
     private void mutate(Individual individual) {
-        int counter = 0;
         for(int i= this.begginingRange; i< this.endRange +1; i++) {
-            int geneValue =   individual.getGene(this.endRange  - counter);
+            int geneValue =   ThreadLocalRandom.current().nextInt(this.minLimit, this.maxLimit );
             individual.setGene(i , geneValue);
-            counter ++;
         }
     }
 

@@ -74,4 +74,6 @@ public class Individual {
         return this.genes;
     }
 
+
+
 }
