@@ -9,7 +9,6 @@ import java.util.concurrent.ThreadLocalRandom;
  * @author Jose Gonzalez
  */
 public class TournamentSelection {
-
     private int tournamentSize;  //Number of individuals from the population competing in the tournament
 
     public TournamentSelection(int tournamentSize){
@@ -25,12 +24,10 @@ public class TournamentSelection {
      */
     private Individual tournamentSelection(Population population) {
         Population tournament = new Population(this.tournamentSize, false);
-
         for (int i = 0; i < this.tournamentSize; i++) {
             int randomId = ThreadLocalRandom.current().nextInt(0, population.getIndividuals().length);
             tournament.getIndividuals()[i] = population.getIndividuals()[randomId];
         }
-
         return tournament.getFittest();
     }
 
