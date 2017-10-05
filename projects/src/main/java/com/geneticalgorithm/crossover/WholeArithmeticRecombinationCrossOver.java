@@ -20,7 +20,7 @@ public class WholeArithmeticRecombinationCrossOver {
         Individual offspring = new Individual(father.size());
 
         for (int i = 0; i < offspring.size(); i++) {
-            offspring.setGene(i, this.weight * father.getGene(i) + (1-this.weight) * mother.getGene(i));
+            offspring.setGene(i, (int)(this.weight * father.getGene(i) + (1-this.weight) * mother.getGene(i)));
         }
         return offspring;
     }

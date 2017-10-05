@@ -2,6 +2,8 @@ package com.geneticalgorithm.beans;
 
 import com.geneticalgorithm.utils.FitnessCalc;
 
+import java.util.Random;
+
 /**
  *  Class holding the information of individuals
  *
@@ -11,22 +13,23 @@ import com.geneticalgorithm.utils.FitnessCalc;
 public class Individual {
 
     private static int defaultGeneLength = 64;
-    private double[] genes;
+    private int[] genes;
     private int fitness = 0;
 
     public Individual(){
         FitnessCalc fitnessCalc = new FitnessCalc();
-        this.genes = new double[defaultGeneLength];
+        this.genes = new int[defaultGeneLength];
     }
     public Individual(int genesLength){
-        this.genes = new double[genesLength];
+        this.genes = new int[genesLength];
         FitnessCalc fitnessCalc = new FitnessCalc();
     }
 
     // Create a random individual
     public void generateIndividual() {
+        Random random = new Random();
         for (int i = 0; i < size(); i++) {
-            double gene =  Math.random();
+            int gene = random.nextInt(100);
             this.genes[i] = gene;
         }
     }
@@ -37,11 +40,11 @@ public class Individual {
         defaultGeneLength = length;
     }
 
-    public double getGene(int index) {
+    public int getGene(int index) {
         return this.genes[index];
     }
 
-    public void setGene(int index, double value) {
+    public void setGene(int index, int value) {
         this.genes[index] = value;
         fitness = 0;
     }
@@ -67,7 +70,7 @@ public class Individual {
         return geneString;
     }
 
-    public double[] getGenes() {
+    public int[] getGenes() {
         return this.genes;
     }
 

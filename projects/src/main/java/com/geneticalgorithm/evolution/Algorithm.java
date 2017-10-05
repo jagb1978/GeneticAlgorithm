@@ -3,6 +3,8 @@ package com.geneticalgorithm.evolution;
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
 
+import java.util.Random;
+
 
 /**
  * Implement the GA that evolves the individuals
@@ -73,10 +75,11 @@ public class Algorithm {
      * @param individual
      */
     private void mutate(Individual individual) {
-
+        Random random = new Random();
         for (int i = 0; i < individual.size(); i++) {
+
             if (Math.random() <= this.mutationRate) {
-                double gene =  Math.round(Math.random());
+                int gene =  random .nextInt(100);
                 individual.setGene(i, gene);
             }
         }

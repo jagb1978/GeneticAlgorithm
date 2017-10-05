@@ -10,9 +10,9 @@ import com.geneticalgorithm.beans.Individual;
  */
 public class FitnessCalc implements FitnessCalculator{
 
-    static byte[] solution = new byte[64];
+    static double[] solution = new double[64];
 
-    public static void setSolution(byte[] newSolution) {
+    public static void setSolution(double[] newSolution) {
         solution = newSolution;
     }
 
@@ -21,15 +21,12 @@ public class FitnessCalc implements FitnessCalculator{
      * @param newSolution
      */
     public static void setSolution(String newSolution) {
-        solution = new byte[newSolution.length()];
+        String[] solutionString = newSolution.split(",");
+        solution = new double[solutionString.length];
 
-        for (int i = 0; i < newSolution.length(); i++) {
-            String character = newSolution.substring(i, i + 1);
-            if (character.contains("0") || character.contains("1")) {
-                solution[i] = Byte.parseByte(character);
-            } else {
-                solution[i] = 0;
-            }
+        for (int i = 0; i < solutionString.length; i++) {
+            String character = solutionString[i];
+                solution[i] = Double.parseDouble(character);
         }
     }
 

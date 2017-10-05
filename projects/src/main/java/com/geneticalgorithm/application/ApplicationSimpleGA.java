@@ -14,7 +14,8 @@ public class ApplicationSimpleGA {
 
         Algorithm algorithm= new Algorithm();
         // Set a candidate solution
-        FitnessCalc.setSolution("1111000000000000000000000000000000000000000000000000000000001111");
+        FitnessCalc.setSolution("35,2,1,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0," +
+                "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,34,35");
 
         // Create an initial population
         Population population = new Population(50, true);
