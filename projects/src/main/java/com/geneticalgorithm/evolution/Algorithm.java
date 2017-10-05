@@ -76,7 +76,7 @@ public class Algorithm {
 
         for (int i = 0; i < individual.size(); i++) {
             if (Math.random() <= this.mutationRate) {
-                byte gene = (byte) Math.round(Math.random());
+                double gene =  Math.round(Math.random());
                 individual.setGene(i, gene);
             }
         }

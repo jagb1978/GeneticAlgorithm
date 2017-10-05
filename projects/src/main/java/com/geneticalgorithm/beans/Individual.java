@@ -11,22 +11,22 @@ import com.geneticalgorithm.utils.FitnessCalc;
 public class Individual {
 
     private static int defaultGeneLength = 64;
-    private byte[]genes;
+    private double[] genes;
     private int fitness = 0;
 
     public Individual(){
         FitnessCalc fitnessCalc = new FitnessCalc();
-        this.genes = new byte[defaultGeneLength];
+        this.genes = new double[defaultGeneLength];
     }
     public Individual(int genesLength){
-        this.genes = new byte[genesLength];
+        this.genes = new double[genesLength];
         FitnessCalc fitnessCalc = new FitnessCalc();
     }
 
     // Create a random individual
     public void generateIndividual() {
         for (int i = 0; i < size(); i++) {
-            byte gene = (byte) Math.round(Math.random());
+            double gene =  Math.random();
             this.genes[i] = gene;
         }
     }
@@ -37,11 +37,11 @@ public class Individual {
         defaultGeneLength = length;
     }
 
-    public byte getGene(int index) {
+    public double getGene(int index) {
         return this.genes[index];
     }
 
-    public void setGene(int index, byte value) {
+    public void setGene(int index, double value) {
         this.genes[index] = value;
         fitness = 0;
     }
@@ -67,7 +67,7 @@ public class Individual {
         return geneString;
     }
 
-    public byte[] getGenes() {
+    public double[] getGenes() {
         return this.genes;
     }
 
