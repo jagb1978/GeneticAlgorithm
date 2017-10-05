@@ -22,6 +22,6 @@ public class RankSelection {
 //            tournament.getIndividuals()[i] = population.getIndividuals()[randomId];
 //        }
 //        return tournament.getFittest();
-    }
+  //  }
 
 }

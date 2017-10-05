@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6210a6-ca41-436e-86d3-6ff7b3075d0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/254a34f7a5164bc31c0e1adaa8df5d10781462ec" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/254a34f7a5164bc31c0e1adaa8df5d10781462ec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/395ed2d315ac0e55f200cfaf12c64cf4a0b2d604" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/395ed2d315ac0e55f200cfaf12c64cf4a0b2d604" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c577835fd22029d78f783ecbd115cf7f3128073" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c577835fd22029d78f783ecbd115cf7f3128073" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/9283ef99117611026ff57855a0eef86f7d474a13" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/9283ef99117611026ff57855a0eef86f7d474a13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef92579ee061c359f5032da2566d61643c33d813" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef92579ee061c359f5032da2566d61643c33d813" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TournamentSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TournamentSelection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,8 +108,8 @@
       <file leaf-file-name="RankSelection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1403,8 +1393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
