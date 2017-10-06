@@ -6,14 +6,14 @@ import com.geneticalgorithm.beans.Individual;
  * Implements UniformCrossOver
  * @author Jose Gonzalez
  */
-public class UniformCrossOver {
+public class UniformCrossOver implements CrossOver{
 
     private double uniformRate;
 
     public UniformCrossOver (double uniformRate){
         this.uniformRate = uniformRate;
     }
-    
+
     /**
      * Method that crosses over two individuals
      * It "randomly" selects one individual and adds the gene to the
@@ -24,7 +24,8 @@ public class UniformCrossOver {
      * @param mother
      * @return newCrossedOverIndividual
      */
-    private Individual crossOver(Individual father, Individual mother) {
+    @Override
+    public Individual crossOver(Individual father, Individual mother) {
         Individual offspring = new Individual();
 
         for (int i = 0; i < father.size(); i++) {

@@ -1,5 +1,5 @@
 
-Msquid:S1068",Remove this unused "maxLimit" private field.(ÇØä«ÿÿÿÿÿ8ôšçî+
-lsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ThreadLocalRandom'.(¨ÏÙî8ôšçî+
 Usquid:UnusedPrivateMethod"+Remove this unused private "mutate" method.(¥ÛÇâ8à‚şæî+
 Msquid:S1068",Remove this unused "minLimit" private field.(¥³‰§şÿÿÿÿ8ôšçî+
+lsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ThreadLocalRandom'.(¨ÏÙî8ôšçî+
+Msquid:S1068",Remove this unused "maxLimit" private field.(ÇØä«ÿÿÿÿÿ8ôšçî+

@@ -9,7 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * @author Jose Gonzalez
  */
-public class ScrambleMutation {
+public class ScrambleMutation implements Mutation {
     private int minLimit;
     private int maxLimit;
     private int begginingRange;
@@ -22,7 +22,8 @@ public class ScrambleMutation {
         this.endRange = endRange;
     }
 
-    private void mutate(Individual individual) {
+    @Override
+    public void mutate(Individual individual) {
         for(int i= this.begginingRange; i< this.endRange +1; i++) {
             int geneValue =   ThreadLocalRandom.current().nextInt(this.minLimit, this.maxLimit );
             individual.setGene(i , geneValue);

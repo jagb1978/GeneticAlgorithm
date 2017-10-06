@@ -9,13 +9,14 @@ import com.geneticalgorithm.beans.Individual;
  *
  * @author Jose Gonzalez
  */
-public class WholeArithmeticRecombinationCrossOver {
+public class WholeArithmeticRecombinationCrossOver implements CrossOver{
     private double weight;
 
     public WholeArithmeticRecombinationCrossOver(double weight){
         this.weight = weight;
     }
 
+    @Override
     public Individual crossOver(Individual father, Individual mother) {
         Individual offspring = new Individual(father.size());
 

@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @author Jose Gonzalez
  */
-public class SwapMutation {
+public class SwapMutation implements Mutation{
     private int minLimit;
     private int maxLimit;
     private int numberOfGenesToMutate;
@@ -21,7 +21,8 @@ public class SwapMutation {
      * Method that mutates individuals
      * @param individual
      */
-    private void mutate(Individual individual) {
+    @Override
+    public void mutate(Individual individual) {
         for(int i =0 ; i< this.numberOfGenesToMutate; i++) {
             int position = ThreadLocalRandom.current().nextInt(0, individual.size());
             int geneValue =   ThreadLocalRandom.current().nextInt(this.minLimit, this.maxLimit );

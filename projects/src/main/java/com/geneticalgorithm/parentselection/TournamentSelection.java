@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * Implements Tournament Selection
  * @author Jose Gonzalez
  */
-public class TournamentSelection {
+public class TournamentSelection implements ParentSelection{
     private int tournamentSize;  //Number of individuals from the population competing in the tournament
 
     public TournamentSelection(int tournamentSize){
@@ -22,7 +22,8 @@ public class TournamentSelection {
      * @param population
      * @return fittest Individual in the Tournament
      */
-    private Individual tournamentSelection(Population population) {
+    @Override
+    public Individual selection(Population population) {
         Population tournament = new Population(this.tournamentSize, false);
         for (int i = 0; i < this.tournamentSize; i++) {
             int randomId = ThreadLocalRandom.current().nextInt(0, population.getIndividuals().length);

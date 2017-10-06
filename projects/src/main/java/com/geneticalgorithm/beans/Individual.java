@@ -23,6 +23,7 @@ public class Individual {
     public Individual(int genesLength){
         this.genes = new int[genesLength];
         FitnessCalc fitnessCalc = new FitnessCalc();
+        generateIndividual();
     }
 
     // Create a random individual

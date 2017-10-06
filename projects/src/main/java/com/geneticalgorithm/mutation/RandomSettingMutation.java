@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @author Jose Gonzalez
  */
-public class RandomSettingMutation {
+public class RandomSettingMutation implements Mutation {
     private int minLimit;
     private int maxLimit;
     private double mutationRate;
@@ -17,7 +17,7 @@ public class RandomSettingMutation {
         this.maxLimit = maxLimit;
         this.mutationRate = mutationRate;
     }
-    
+
     /**
      * Method that mutates individuals
      * 1. It firstly decides whether to mutate given the mutation rate parameter or probability
@@ -26,7 +26,8 @@ public class RandomSettingMutation {
      *
      * @param individual
      */
-    private void mutate(Individual individual) {
+    @Override
+    public void mutate(Individual individual) {
         for (int i = 0; i < individual.size(); i++) {
             if (Math.random() <= this.mutationRate) {
                 int gene =   ThreadLocalRandom.current().nextInt(this.minLimit, this.maxLimit );

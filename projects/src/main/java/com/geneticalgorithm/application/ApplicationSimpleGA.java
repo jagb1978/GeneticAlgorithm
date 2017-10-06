@@ -1,8 +1,14 @@
 package com.geneticalgorithm.application;
 
 import com.geneticalgorithm.beans.Population;
+import com.geneticalgorithm.crossover.*;
 import com.geneticalgorithm.evolution.Algorithm;
+import com.geneticalgorithm.mutation.Mutation;
+import com.geneticalgorithm.mutation.RandomSettingMutation;
+import com.geneticalgorithm.parentselection.*;
 import com.geneticalgorithm.utils.FitnessCalc;
+
+import java.util.ArrayList;
 
 /**
  * Simple GA application
@@ -12,13 +18,23 @@ import com.geneticalgorithm.utils.FitnessCalc;
 public class ApplicationSimpleGA {
     public static void main(String[] args) {
 
-        Algorithm algorithm= new Algorithm();
+        double uniformRate = 0.5;
+        double mutationRate = 0.015;
+        int tournamentSize = 5;
+        boolean elitism = true;
+
+        ParentSelection parentSelection = new TournamentSelection(tournamentSize);
+        CrossOver crossOver = new UniformCrossOver(uniformRate);
+        Mutation mutation = new RandomSettingMutation(0, 50,mutationRate);
+
+        Algorithm algorithm = new Algorithm(parentSelection, crossOver, mutation, elitism);
         // Set a candidate solution
         FitnessCalc.setSolution("35,2,1,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0," +
                 "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,34,35");
 
         // Create an initial population
-        Population population = new Population(50, true);
+        Population population = new Population(100, true);
+
 
         // Evolve our population until we reach an optimum solution
         int generationCount = 0;

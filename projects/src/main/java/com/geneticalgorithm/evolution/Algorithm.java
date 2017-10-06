@@ -2,6 +2,13 @@ package com.geneticalgorithm.evolution;
 
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
+import com.geneticalgorithm.crossover.CrossOver;
+import com.geneticalgorithm.crossover.OnePointCrossOver;
+import com.geneticalgorithm.crossover.UniformCrossOver;
+import com.geneticalgorithm.mutation.Mutation;
+import com.geneticalgorithm.mutation.RandomSettingMutation;
+import com.geneticalgorithm.parentselection.ParentSelection;
+import com.geneticalgorithm.parentselection.TournamentSelection;
 
 import java.util.Random;
 
@@ -13,19 +20,20 @@ import java.util.Random;
  */
 public class Algorithm {
 
-    private double uniformRate = 0.5;
-    private double mutationRate = 0.015;
-    private int tournamentSize = 5;
-    private boolean elitism = true;
 
-    public Algorithm(){}
+    private ParentSelection parentSelection;
+    private CrossOver crossOver;
+    private Mutation mutation;
+    private boolean elitism;
 
-    public Algorithm (double uniformRate, double mutationRate, int tournamentSize, boolean elitism){
-        this.uniformRate = uniformRate;
-        this.mutationRate = mutationRate;
-        this.tournamentSize = tournamentSize;
+    public Algorithm(ParentSelection parentSelection, CrossOver crossOver,  Mutation mutation, boolean elitism){
+        this.parentSelection = parentSelection;
+        this.crossOver = crossOver;
+        this.mutation = mutation;
         this.elitism = elitism;
     }
+
+
 
     /**
      * Evolves the population with following steps
@@ -50,81 +58,18 @@ public class Algorithm {
 
         // crossover
         for (int i = elitismOffset; i < population.getIndividuals().length; i++) {
-            Individual father = this.tournamentSelection(population);
-            Individual mother = this.tournamentSelection(population);
-            Individual offspring = this.crossover(father, mother);
+            Individual father = this.parentSelection.selection(population);
+            Individual mother = this.parentSelection.selection(population);
+            Individual offspring = this.crossOver.crossOver(father, mother);
 
             newPopulation.getIndividuals()[i] = offspring;
         }
 
         // Mutate population
         for (int i = elitismOffset; i < newPopulation.getIndividuals().length; i++) {
-            this.mutate(newPopulation.getIndividuals()[i]);
+            this.mutation.mutate(newPopulation.getIndividuals()[i]);
         }
 
         return newPopulation;
     }
-
-
-    /**
-     * Method that mutates individuals
-     * 1. It firstly decides whether to mutate given the mutation rate parameter or probability
-     * 2. It then generates a gene value that is either 0 or 1
-     * 3. Sets the new gene value in the individual
-     *
-     * @param individual
-     */
-    private void mutate(Individual individual) {
-        Random random = new Random();
-        for (int i = 0; i < individual.size(); i++) {
-
-            if (Math.random() <= this.mutationRate) {
-                int gene =  random .nextInt(100);
-                individual.setGene(i, gene);
-            }
-        }
-    }
-
-    /**
-     * Method that crosses over two individuals
-     * It randomly selects one individual and adds the gene to the
-     * new crossedOvered individual. Therefore the new individual
-     * gets genes from both parents
-     *
-     * @param father
-     * @param mother
-     * @return newCrossedOverIndividual
-     */
-    private Individual crossover(Individual father, Individual mother) {
-        Individual offspring = new Individual();
-
-        for (int i = 0; i < father.size(); i++) {
-            if (Math.random() <= this.uniformRate) {
-                offspring.setGene(i, father.getGene(i));
-            } else {
-                offspring.setGene(i, mother.getGene(i));
-            }
-        }
-
-        return offspring;
-    }
-
-    /**
-     * Randomly selects an individual from the population
-     * for a place in the tournament. Afterwards it selects a winner.
-     *
-     * @param population
-     * @return fittest Individual in the Tournament
-     */
-    private Individual tournamentSelection(Population population) {
-        Population tournament = new Population(this.tournamentSize, false);
-
-        for (int i = 0; i < this.tournamentSize; i++) {
-            int randomId = (int) (Math.random() * population.getIndividuals().length);
-            tournament.getIndividuals()[i] = population.getIndividuals()[randomId];
-        }
-
-        return tournament.getFittest();
-    }
-
 }

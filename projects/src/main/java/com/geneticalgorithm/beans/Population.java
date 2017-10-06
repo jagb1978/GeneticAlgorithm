@@ -9,17 +9,16 @@ package com.geneticalgorithm.beans;
 public class Population {
     private Individual[] individuals;
 
-
     public Population(int populationSize, boolean initialise) {
         this.individuals = new Individual[populationSize];
+        int individualNumber = 0;
 
-        int individualNumber=0;
         // Initialise population
         if (initialise) {
             for (Individual individual : this.individuals) {
                 individual = new Individual();
                 individual.generateIndividual();
-                this.individuals[individualNumber]=individual;
+                this.individuals[individualNumber] = individual;
                 individualNumber++;
             }
         }

@@ -12,7 +12,7 @@ import static java.lang.Math.round;
  *
  * @author Jose Gonzalez
  */
-public class BitFlipMutation {
+public class BitFlipMutation implements Mutation {
     private double mutationRate;
 
     public BitFlipMutation(double mutationRate) {
@@ -27,7 +27,8 @@ public class BitFlipMutation {
      *
      * @param individual
      */
-    private void mutate(Individual individual) {
+    @Override
+    public void mutate(Individual individual) {
 
         for (int i = 0; i < individual.size(); i++) {
             if (Math.random() <= this.mutationRate) {

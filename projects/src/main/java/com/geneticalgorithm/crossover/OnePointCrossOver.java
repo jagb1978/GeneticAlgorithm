@@ -8,7 +8,7 @@ import com.geneticalgorithm.beans.Individual;
  *
  * @author Jose Gonzalez
  */
-public class OnePointCrossOver {
+public class OnePointCrossOver implements CrossOver{
 
     private double crossoverFraction;
 
@@ -25,6 +25,7 @@ public class OnePointCrossOver {
      * @param mother
      * @return newCrossedOverIndividual
      */
+    @Override
     public Individual crossOver(Individual father, Individual mother) {
         Individual offspring = new Individual(father.size());
         double crossoverPoint = this.crossoverFraction * father.size();

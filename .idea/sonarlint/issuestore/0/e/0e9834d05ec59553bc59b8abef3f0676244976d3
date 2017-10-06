@@ -1,5 +1,5 @@
 
+Esquid:S2140")Use "java.util.Random.nextInt()" instead.(‘úíÄ8â÷Šæî+
+lsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ThreadLocalRandom'.(¨ÏÙî8›Ú‹æî+
 [squid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ö”Œæî+
 Usquid:UnusedPrivateMethod"+Remove this unused private "mutate" method.(¥ÛÇâ8ÕøÈåî+
-lsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ThreadLocalRandom'.(¨ÏÙî8›Ú‹æî+
-Esquid:S2140")Use "java.util.Random.nextInt()" instead.(‘úíÄ8â÷Šæî+

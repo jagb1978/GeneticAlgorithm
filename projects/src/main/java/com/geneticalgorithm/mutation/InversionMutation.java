@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @author Jose Gonzalez
  */
-public class InversionMutation {
+public class InversionMutation implements Mutation{
     private int minLimit;
     private int maxLimit;
     private int begginingRange;
@@ -21,7 +21,8 @@ public class InversionMutation {
         this.endRange = endRange;
     }
 
-    private void mutate(Individual individual) {
+    @Override
+    public void mutate(Individual individual) {
         int counter = 0;
         for(int i= this.begginingRange; i< this.endRange +1; i++) {
             int geneValue =   individual.getGene(this.endRange  - counter);

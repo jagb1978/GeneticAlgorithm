@@ -23,8 +23,6 @@ Nprojects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java
 Pprojects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java,8/c/8c7e394fbf0061f43e88dbb37428dce5bbe8a466
 ~
 Nprojects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java,d/5/d53afb296c3e21529f13c6e1f7573b113c367ffe
-Ž
-^projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java,d/c/dc1092b74a00bee7dc8e2cab7b8d3504ebb47412
 q
 Aprojects/src/main/java/com/geneticalgorithm/beans/Population.java,b/f/bfd0fd73d405df69dd6994eee1e79226e557e25c
 ‡
@@ -49,3 +47,5 @@ v
 Fprojects/src/main/java/com/geneticalgorithm/mutation/SwapMutation.java,f/4/f44c23a83def9f180bb8730003e3fbf5112c82db
 r
 Bprojects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java,0/5/0556d1a0d3b2125f03623f14e3eb97607299c11e
+~
+Nprojects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java,4/a/4a2932d383e05915d091551a7d7c8c35030d7a1e

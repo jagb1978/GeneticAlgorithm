@@ -1,2 +1,5 @@
 
-Wsquid:S2094"BRemove this empty class, write its code or make it an "interface".(ÜÕ¡®
+]squid:UnusedPrivateMethod".Remove this unused private "selection" method.(İÆÔüûÿÿÿÿ8µÀ‰ï+
+jsquid:S3518"IMake sure 'normalizationFactor' can't be zero before doing this division.(èÃÊ¾ûÿÿÿÿ8çÒò‰ï+
+Rsquid:S1172"1Remove this unused method parameter "population".(İÆÔüûÿÿÿÿ8±ÇÄ‰ï+
+isquid:S2184"HCast one of the operands of this multiplication operation to a "double".(˜£ÃÌÿÿÿÿÿ8Çƒ†Šï+
