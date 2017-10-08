@@ -19,8 +19,6 @@ import java.util.Random;
  * @author Jose Gonzalez
  */
 public class Algorithm {
-
-
     private ParentSelection parentSelection;
     private CrossOver crossOver;
     private Mutation mutation;
@@ -32,8 +30,6 @@ public class Algorithm {
         this.mutation = mutation;
         this.elitism = elitism;
     }
-
-
 
     /**
      * Evolves the population with following steps

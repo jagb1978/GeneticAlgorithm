@@ -25,12 +25,12 @@ public class ApplicationSimpleGA {
 
         ParentSelection parentSelection = new TournamentSelection(tournamentSize);
         CrossOver crossOver = new UniformCrossOver(uniformRate);
-        Mutation mutation = new RandomSettingMutation(0, 50,mutationRate);
+        Mutation mutation = new RandomSettingMutation(0, 100,mutationRate);
 
         Algorithm algorithm = new Algorithm(parentSelection, crossOver, mutation, elitism);
         // Set a candidate solution
-        FitnessCalc.setSolution("35,2,1,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0," +
-                "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,34,35");
+        FitnessCalc.setSolution("35,2,1,15,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0," +
+                "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,34,35");
 
         // Create an initial population
         Population population = new Population(100, true);
