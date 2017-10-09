@@ -3,12 +3,12 @@ package com.geneticalgorithm.application;
 import com.geneticalgorithm.beans.Population;
 import com.geneticalgorithm.crossover.*;
 import com.geneticalgorithm.evolution.Algorithm;
-import com.geneticalgorithm.mutation.Mutation;
+import com.geneticalgorithm.interfaces.CrossOver;
+import com.geneticalgorithm.interfaces.Mutation;
+import com.geneticalgorithm.interfaces.ParentSelection;
 import com.geneticalgorithm.mutation.RandomSettingMutation;
 import com.geneticalgorithm.parentselection.*;
 import com.geneticalgorithm.utils.FitnessCalc;
-
-import java.util.ArrayList;
 
 /**
  * Simple GA application

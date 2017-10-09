@@ -4,7 +4,6 @@ package com.geneticalgorithm.indicators;
  * @author Jose Gonzalez
  */
 public class RocEma {
-
     private int rocPeriod;
     private Ema rocEma;
     private int emaPeriod;

@@ -1,6 +1,7 @@
 package com.geneticalgorithm.crossover;
 
 import com.geneticalgorithm.beans.Individual;
+import com.geneticalgorithm.interfaces.CrossOver;
 
 import java.util.List;
 

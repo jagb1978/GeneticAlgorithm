@@ -49,3 +49,9 @@ r
 Bprojects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java,0/5/0556d1a0d3b2125f03623f14e3eb97607299c11e
 ~
 Nprojects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java,4/a/4a2932d383e05915d091551a7d7c8c35030d7a1e
+{
+Kprojects/src/main/java/com/geneticalgorithm/interfaces/ParentSelection.java,a/8/a83114036e7d341553885610d3bef549c7274a14
+t
+Dprojects/src/main/java/com/geneticalgorithm/interfaces/Mutation.java,b/2/b27c8d10e9421d3203d7b356b10eb01570338938
+u
+Eprojects/src/main/java/com/geneticalgorithm/interfaces/CrossOver.java,7/6/764a3b202ebe94a17ef4b3564870fb22d0b9a207

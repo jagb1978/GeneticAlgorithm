@@ -2,6 +2,8 @@ package com.geneticalgorithm.parentselection;
 
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
+import com.geneticalgorithm.interfaces.ParentSelection;
+
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 

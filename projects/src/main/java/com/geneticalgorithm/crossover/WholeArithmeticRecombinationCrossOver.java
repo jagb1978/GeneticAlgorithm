@@ -1,6 +1,7 @@
 package com.geneticalgorithm.crossover;
 
 import com.geneticalgorithm.beans.Individual;
+import com.geneticalgorithm.interfaces.CrossOver;
 
 /**
  * Implements whole arithmetic recombination Cross Over
@@ -9,7 +10,7 @@ import com.geneticalgorithm.beans.Individual;
  *
  * @author Jose Gonzalez
  */
-public class WholeArithmeticRecombinationCrossOver implements CrossOver{
+public class WholeArithmeticRecombinationCrossOver implements CrossOver {
     private double weight;
 
     public WholeArithmeticRecombinationCrossOver(double weight){

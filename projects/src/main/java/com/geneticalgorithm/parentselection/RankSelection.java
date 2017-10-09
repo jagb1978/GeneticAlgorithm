@@ -2,6 +2,7 @@ package com.geneticalgorithm.parentselection;
 
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
+import com.geneticalgorithm.interfaces.ParentSelection;
 import com.geneticalgorithm.utils.SortIndividualByFitness;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -13,7 +14,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * exponentiallyOfSelectionMethod must be between 0 and 1
  * @author Jose Gonzalez
  */
-public class RankSelection implements ParentSelection{
+public class RankSelection implements ParentSelection {
     private int selectedPopulationSize;
     private double exponentiallyOfSelectionMethod;
     private Map<Integer, Double> individualsSelectionWeights = new HashMap<>();

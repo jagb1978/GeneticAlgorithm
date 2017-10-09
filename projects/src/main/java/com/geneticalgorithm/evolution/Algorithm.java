@@ -2,15 +2,9 @@ package com.geneticalgorithm.evolution;
 
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
-import com.geneticalgorithm.crossover.CrossOver;
-import com.geneticalgorithm.crossover.OnePointCrossOver;
-import com.geneticalgorithm.crossover.UniformCrossOver;
-import com.geneticalgorithm.mutation.Mutation;
-import com.geneticalgorithm.mutation.RandomSettingMutation;
-import com.geneticalgorithm.parentselection.ParentSelection;
-import com.geneticalgorithm.parentselection.TournamentSelection;
-
-import java.util.Random;
+import com.geneticalgorithm.interfaces.CrossOver;
+import com.geneticalgorithm.interfaces.Mutation;
+import com.geneticalgorithm.interfaces.ParentSelection;
 
 
 /**

@@ -1,11 +1,12 @@
 package com.geneticalgorithm.mutation;
 
 import com.geneticalgorithm.beans.Individual;
+import com.geneticalgorithm.interfaces.Mutation;
 
 /**
  * @author Jose Gonzalez
  */
-public class InversionMutation implements Mutation{
+public class InversionMutation implements Mutation {
     private int minLimit;
     private int maxLimit;
     private int begginingRange;

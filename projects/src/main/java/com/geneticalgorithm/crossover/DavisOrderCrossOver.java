@@ -1,13 +1,12 @@
 package com.geneticalgorithm.crossover;
 
 import com.geneticalgorithm.beans.Individual;
-
-import java.util.Arrays;
+import com.geneticalgorithm.interfaces.CrossOver;
 
 /**
  * @author Jose Gonzalez
  */
-public class DavisOrderCrossOver implements CrossOver{
+public class DavisOrderCrossOver implements CrossOver {
     private int beggingPosition;
     private int endPosition;
 

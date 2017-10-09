@@ -1,12 +1,13 @@
 package com.geneticalgorithm.crossover;
 
 import com.geneticalgorithm.beans.Individual;
+import com.geneticalgorithm.interfaces.CrossOver;
 
 /**
  * Implements UniformCrossOver
  * @author Jose Gonzalez
  */
-public class UniformCrossOver implements CrossOver{
+public class UniformCrossOver implements CrossOver {
 
     private double uniformRate;
 

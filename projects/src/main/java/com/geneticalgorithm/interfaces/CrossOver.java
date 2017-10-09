@@ -1,4 +1,4 @@
-package com.geneticalgorithm.crossover;
+package com.geneticalgorithm.interfaces;
 
 import com.geneticalgorithm.beans.Individual;
 

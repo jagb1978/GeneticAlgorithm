@@ -1,4 +1,4 @@
-package com.geneticalgorithm.parentselection;
+package com.geneticalgorithm.interfaces;
 
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;

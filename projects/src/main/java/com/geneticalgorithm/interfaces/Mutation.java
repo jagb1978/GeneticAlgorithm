@@ -1,4 +1,4 @@
-package com.geneticalgorithm.mutation;
+package com.geneticalgorithm.interfaces;
 
 import com.geneticalgorithm.beans.Individual;
 

@@ -1,12 +1,14 @@
 package com.geneticalgorithm.mutation;
 
 import com.geneticalgorithm.beans.Individual;
+import com.geneticalgorithm.interfaces.Mutation;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * @author Jose Gonzalez
  */
-public class SwapMutation implements Mutation{
+public class SwapMutation implements Mutation {
     private int minLimit;
     private int maxLimit;
     private int numberOfGenesToMutate;

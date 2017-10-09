@@ -1,6 +1,7 @@
 package com.geneticalgorithm.crossover;
 
 import com.geneticalgorithm.beans.Individual;
+import com.geneticalgorithm.interfaces.CrossOver;
 
 
 /**
@@ -8,7 +9,7 @@ import com.geneticalgorithm.beans.Individual;
  *
  * @author Jose Gonzalez
  */
-public class OnePointCrossOver implements CrossOver{
+public class OnePointCrossOver implements CrossOver {
 
     private double crossoverFraction;
 

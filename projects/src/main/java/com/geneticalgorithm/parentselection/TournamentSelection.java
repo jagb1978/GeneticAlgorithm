@@ -2,13 +2,15 @@ package com.geneticalgorithm.parentselection;
 
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
+import com.geneticalgorithm.interfaces.ParentSelection;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Implements Tournament Selection
  * @author Jose Gonzalez
  */
-public class TournamentSelection implements ParentSelection{
+public class TournamentSelection implements ParentSelection {
     private int tournamentSize;  //Number of individuals from the population competing in the tournament
 
     public TournamentSelection(int tournamentSize){

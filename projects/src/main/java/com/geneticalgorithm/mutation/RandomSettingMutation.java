@@ -1,6 +1,7 @@
 package com.geneticalgorithm.mutation;
 
 import com.geneticalgorithm.beans.Individual;
+import com.geneticalgorithm.interfaces.Mutation;
 
 import java.util.concurrent.ThreadLocalRandom;
 
