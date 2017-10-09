@@ -1,6 +1,6 @@
 package com.trading.strategies;
 
-import com.geneticalgorithm.enums.MarketState;
+import com.trading.enums.MarketState;
 import com.trading.indicators.Ema;
 import com.geneticalgorithm.interfaces.Strategy;
 
