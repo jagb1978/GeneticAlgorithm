@@ -1,4 +1,4 @@
-package com.geneticalgorithm.indicators;
+package com.trading.indicators;
 
 /**
  * @author Jose Gonzalez

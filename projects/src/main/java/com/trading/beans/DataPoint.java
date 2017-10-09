@@ -1,4 +1,4 @@
-package com.geneticalgorithm.beans;
+package com.trading.beans;
 
 import java.time.LocalDate;
 

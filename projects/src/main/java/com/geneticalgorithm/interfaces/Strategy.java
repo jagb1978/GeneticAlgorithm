@@ -1,6 +1,5 @@
 package com.geneticalgorithm.interfaces;
 
-import com.geneticalgorithm.beans.DataPoint;
 
 /**
  * Strategy interface
@@ -8,5 +7,5 @@ import com.geneticalgorithm.beans.DataPoint;
  */
 public interface Strategy {
 
-    public void updateStrategy(DataPoint dataPoint);
+    public void updateStrategy(double price);
 }

@@ -1,6 +1,6 @@
-package com.geneticalgorithm.indicators;
+package com.trading.indicators;
 
-import com.geneticalgorithm.beans.DataPoint;
+import com.trading.beans.DataPoint;
 import java.util.ArrayList;
 import java.util.List;
 

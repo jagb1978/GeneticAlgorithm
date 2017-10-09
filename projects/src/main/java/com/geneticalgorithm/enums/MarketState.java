@@ -1,4 +1,4 @@
-package com.geneticalgorithm.Enums;
+package com.geneticalgorithm.enums;
 
 /**
  * Market State Enum

@@ -1,8 +1,7 @@
-package com.geneticalgorithm.strategy;
+package com.trading.strategies;
 
-import com.geneticalgorithm.Enums.MarketState;
-import com.geneticalgorithm.beans.DataPoint;
-import com.geneticalgorithm.indicators.Ema;
+import com.geneticalgorithm.enums.MarketState;
+import com.trading.indicators.Ema;
 import com.geneticalgorithm.interfaces.Strategy;
 
 public class EmaCrossOver implements Strategy{
@@ -16,9 +15,9 @@ public class EmaCrossOver implements Strategy{
     }
 
     @Override
-    public void updateStrategy(DataPoint dataPoint){
-        this.longEma.calculateEma(dataPoint.getPrice());
-        this.shortEma.calculateEma(dataPoint.getPrice());
+    public void updateStrategy(double price){
+        this.longEma.calculateEma(price);
+        this.shortEma.calculateEma(price);
     }
 
     public MarketState getMarketState(){

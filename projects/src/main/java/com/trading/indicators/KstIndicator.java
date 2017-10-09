@@ -1,7 +1,7 @@
-package com.geneticalgorithm.indicators;
+package com.trading.indicators;
 
 
-import com.geneticalgorithm.beans.DataPoint;
+import com.trading.beans.DataPoint;
 
 /**
  * @author JoseGonzalez
