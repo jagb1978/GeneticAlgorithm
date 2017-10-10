@@ -17,6 +17,7 @@ public class DataPoint {
 
     public DataPoint(){
     }
+    
     public LocalDate getDate() {
         return date;
     }

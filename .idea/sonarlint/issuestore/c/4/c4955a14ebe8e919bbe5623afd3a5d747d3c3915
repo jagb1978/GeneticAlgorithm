@@ -1,6 +1,6 @@
 
 psquid:S1450"[Remove the "currentPrice" field and declare it as a local variable in the relevant methods.(­¥Ó 
-0squid:S1700"Rename field "rateOfChange"(£†óî
 Dsquid:S1068"/Remove this unused "initialized" private field.(•‡£µ
-Isquid:S1068"4Remove this unused "dataPointCounter" private field.(™Ó™µ
 Esquid:S1068"1Remove this unused "previousPrice" private field.(›çìT
+Isquid:S1068"4Remove this unused "dataPointCounter" private field.(™Ó™µ
+0squid:S1700"Rename field "rateOfChange"(£†óî
