@@ -57,8 +57,6 @@ u
 Eprojects/src/main/java/com/geneticalgorithm/interfaces/CrossOver.java,7/6/764a3b202ebe94a17ef4b3564870fb22d0b9a207
 „
 Tprojects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java,a/e/ae10052cdebc66e68b042fdc50251129774ac53b
-t
-Dprojects/src/main/java/com/geneticalgorithm/interfaces/Strategy.java,8/0/80cb455b1616afbf27707d9577f9bbdcda822eb8
 i
 9projects/src/main/java/com/trading/indicators/RocEma.java,6/5/651f3691875cf82b7bdeff06f3242c3fb218caf8
 f
