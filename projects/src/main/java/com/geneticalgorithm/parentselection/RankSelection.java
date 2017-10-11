@@ -4,6 +4,8 @@ import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
 import com.geneticalgorithm.interfaces.ParentSelection;
 import com.geneticalgorithm.utils.SortIndividualByFitness;
+
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -29,7 +31,7 @@ public class RankSelection implements ParentSelection {
     @Override
     public Individual selection(Population population) {
         //Population selectedPopulation = new Population(this.selectedPopulationSize, false);
-        Arrays.sort(population.getIndividuals(), new SortIndividualByFitness());
+        Arrays.sort(population.getIndividualsArray(), new SortIndividualByFitness());
 
         int index = 1;
         double cumulativeSumOfProbabilities=0;
@@ -40,7 +42,7 @@ public class RankSelection implements ParentSelection {
             if (cumulativeSumOfProbabilities< randomNumber) index++;
         }
 
-        return population.getIndividuals()[index];
+        return population.getIndividualsArray()[index];
     }
 
     

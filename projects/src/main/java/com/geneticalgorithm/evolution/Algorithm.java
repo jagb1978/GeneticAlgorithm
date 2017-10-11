@@ -38,26 +38,27 @@ public class Algorithm {
      * @return new evolved generation (population)
      */
     public Population evolvePopulation(Population population) {
-        Population newPopulation = new Population(population.getIndividuals().length, false);
+        Population newPopulation = new Population(population.getIndividualsArray().length,
+                population.getIndividualsNumberOfGenes(),false, population.getFitnessCalculator());
 
         // Keep our best individual
-        if (this.elitism) newPopulation.getIndividuals()[0] = population.getFittest();
+        if (this.elitism) newPopulation.getIndividualsArray()[0] = population.getFittest();
 
         // the offsets excludes the fittest individual from evolving it elitism is true
         int elitismOffset = this.elitism ? 1 : 0;
 
         // crossover
-        for (int i = elitismOffset; i < population.getIndividuals().length; i++) {
+        for (int i = elitismOffset; i < population.getIndividualsArray().length; i++) {
             Individual father = this.parentSelection.selection(population);
             Individual mother = this.parentSelection.selection(population);
             Individual offspring = this.crossOver.crossOver(father, mother);
 
-            newPopulation.getIndividuals()[i] = offspring;
+            newPopulation.getIndividualsArray()[i] = offspring;
         }
 
         // Mutate population
-        for (int i = elitismOffset; i < newPopulation.getIndividuals().length; i++) {
-            this.mutation.mutate(newPopulation.getIndividuals()[i]);
+        for (int i = elitismOffset; i < newPopulation.getIndividualsArray().length; i++) {
+            this.mutation.mutate(newPopulation.getIndividualsArray()[i]);
         }
 
         return newPopulation;

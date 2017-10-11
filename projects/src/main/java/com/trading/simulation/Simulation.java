@@ -15,10 +15,9 @@ public class Simulation {
     List<DataPoint> dataPointList;
     Strategy strategy;
 
-    public Simulation(Strategy strategy) {
+    public Simulation( String dataFilePath) {
         try {
-            this.dataPointList = TimeSeriesUtils.createDataPoints(
-                    new File("/Users/josealfredogonzalez/IdeaProjects/GeneticAlgorithm/projects/src/SecuritiesDataTable.csv"));
+            this.dataPointList = TimeSeriesUtils.createDataPoints(new File( dataFilePath));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -34,6 +33,10 @@ public class Simulation {
 
     public double getTotalPnl(){
         return  this.strategy.getTotalPnl();
+    }
+
+    public void setStrategy(Strategy strategy) {
+        this.strategy = strategy;
     }
 
 }

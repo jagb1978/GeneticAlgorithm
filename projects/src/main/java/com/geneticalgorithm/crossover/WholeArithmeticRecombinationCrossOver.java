@@ -19,7 +19,7 @@ public class WholeArithmeticRecombinationCrossOver implements CrossOver {
 
     @Override
     public Individual crossOver(Individual father, Individual mother) {
-        Individual offspring = new Individual(father.size());
+        Individual offspring = new Individual(father.size(),father.getFitnessCalc());
 
         for (int i = 0; i < offspring.size(); i++) {
             offspring.setGene(i, (int)(this.weight * father.getGene(i) + (1-this.weight) * mother.getGene(i)));

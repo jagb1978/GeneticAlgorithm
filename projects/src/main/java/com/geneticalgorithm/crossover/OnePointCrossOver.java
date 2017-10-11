@@ -28,7 +28,7 @@ public class OnePointCrossOver implements CrossOver {
      */
     @Override
     public Individual crossOver(Individual father, Individual mother) {
-        Individual offspring = new Individual(father.size());
+        Individual offspring = new Individual(father.size(), father.getFitnessCalc());
         double crossoverPoint = this.crossoverFraction * father.size();
 
         for (int i = 0; i < offspring.size(); i++) {

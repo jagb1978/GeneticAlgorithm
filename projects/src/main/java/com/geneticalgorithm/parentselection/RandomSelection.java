@@ -13,8 +13,8 @@ public class RandomSelection implements ParentSelection {
 
     @Override
     public Individual selection(Population population) {
-        int randomNumber = ThreadLocalRandom.current().nextInt(0, population.getIndividuals().length);
-        return population.getIndividuals()[randomNumber];
+        int randomNumber = ThreadLocalRandom.current().nextInt(0, population.getIndividualsArray().length);
+        return population.getIndividualsArray()[randomNumber];
     }
 
 

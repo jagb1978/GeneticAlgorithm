@@ -22,18 +22,18 @@ public class RouletteWheelSelection implements ParentSelection {
      */
     @Override
     public Individual selection(Population population) {
-        double totalPopulationFitness = Arrays.stream(population.getIndividuals()).mapToDouble(Individual::getFitness).sum();
+        double totalPopulationFitness = Arrays.stream(population.getIndividualsArray()).mapToDouble(Individual::getFitness).sum();
         double randomNumber = ThreadLocalRandom.current().nextDouble(0, totalPopulationFitness);
 
         double cumulativeSumOfFitness = 0;
         int index = 0;
 
         while (cumulativeSumOfFitness < randomNumber) {
-            cumulativeSumOfFitness += population.getIndividuals()[index].getFitness() ;
+            cumulativeSumOfFitness += population.getIndividualsArray()[index].getFitness() ;
             if (cumulativeSumOfFitness < randomNumber) index++;
         }
 
-        return population.getIndividuals()[index];
+        return population.getIndividualsArray()[index];
     }
 
 

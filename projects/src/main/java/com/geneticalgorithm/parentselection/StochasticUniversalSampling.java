@@ -3,7 +3,6 @@ package com.geneticalgorithm.parentselection;
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
 import com.geneticalgorithm.utils.SortIndividualByFitness;
-
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -21,28 +20,29 @@ public class StochasticUniversalSampling {
     }
 
     private Population selectParent(Population population) {
-        Population selectedIndividuals = new Population(this.numberOfIndividualsToChoose, true);
-        double totalPopulationFitness = Arrays.stream(population.getIndividuals()).mapToDouble(Individual::getFitness).sum();
-        Arrays.sort(population.getIndividuals(), new SortIndividualByFitness());
+        Population selectedIndividuals = new Population(this.numberOfIndividualsToChoose,population.getIndividualsNumberOfGenes() ,
+                true, population.getFitnessCalculator());
+        double totalPopulationFitness = Arrays.stream(population.getIndividualsArray()).mapToDouble(Individual::getFitness).sum();
+        Arrays.sort(population.getIndividualsArray(), new SortIndividualByFitness());
         double distanceBetweenPointers = totalPopulationFitness / this.numberOfIndividualsToChoose;
 
         int index = 0;
-        double cumulativeSumOfFitness = population.getIndividuals()[index].getFitness();
+        double cumulativeSumOfFitness = population.getIndividualsArray()[index].getFitness();
         double randomNumber = ThreadLocalRandom.current().nextDouble(0, distanceBetweenPointers);
 
 
         for (int i = 0; i < this.numberOfIndividualsToChoose; i++) {
             double pointer = randomNumber + i * distanceBetweenPointers;
             if (cumulativeSumOfFitness < pointer) {
-                for (++index; index < population.getIndividuals().length; index++) {
-                    cumulativeSumOfFitness += population.getIndividuals()[index].getFitness();
+                for (++index; index < population.getIndividualsArray().length; index++) {
+                    cumulativeSumOfFitness += population.getIndividualsArray()[index].getFitness();
                     if (cumulativeSumOfFitness >= pointer) {
-                        selectedIndividuals.getIndividuals()[i] = population.getIndividuals()[index];
+                        selectedIndividuals.getIndividualsArray()[i] = population.getIndividualsArray()[index];
                         break;
                     }
                 }
             } else {
-                selectedIndividuals.getIndividuals()[i] = population.getIndividuals()[index];
+                selectedIndividuals.getIndividualsArray()[i] = population.getIndividualsArray()[index];
             }
         }
 

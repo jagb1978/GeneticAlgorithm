@@ -1,32 +1,37 @@
 package com.geneticalgorithm.beans;
 
 
+import com.geneticalgorithm.interfaces.FitnessCalculator;
+
 /**
  * Manages the populations
  *
  * @author Jose Gonzalez
  */
 public class Population {
-    private Individual[] individuals;
+    private Individual[] individualsArray;
+    private FitnessCalculator fitnessCalculator;
+    private int individualsNumberOfGenes;
 
-    public Population(int populationSize, boolean initialise) {
-        this.individuals = new Individual[populationSize];
+    public Population(int populationSize,int individualsNumberOfGenes ,boolean initialise, FitnessCalculator fitnessCalculator) {
+        this.individualsArray = new Individual[populationSize];
+        this.individualsNumberOfGenes = individualsNumberOfGenes;
+        this.fitnessCalculator = fitnessCalculator;
         int individualNumber = 0;
 
-        // Initialise population
         if (initialise) {
-            for (Individual individual : this.individuals) {
-                individual = new Individual();
+            for (Individual individual : this.individualsArray) {
+                individual = new Individual( this.individualsNumberOfGenes ,this.fitnessCalculator);
                 individual.generateIndividual();
-                this.individuals[individualNumber] = individual;
+                this.individualsArray[individualNumber] = individual;
                 individualNumber++;
             }
         }
     }
 
     public Individual getFittest() {
-        Individual fittest = this.individuals[0];
-        for (Individual individual : this.individuals) {
+        Individual fittest = this.individualsArray[0];
+        for (Individual individual : this.individualsArray) {
             if (fittest.getFitness() <= individual.getFitness()) {
                 fittest = individual;
             }
@@ -34,9 +39,16 @@ public class Population {
         return fittest;
     }
 
-    public Individual[] getIndividuals() {
-        return individuals;
+    public Individual[] getIndividualsArray() {
+        return individualsArray;
     }
 
+    public FitnessCalculator getFitnessCalculator() {
+        return fitnessCalculator;
+    }
+
+    public int getIndividualsNumberOfGenes() {
+        return individualsNumberOfGenes;
+    }
 
 }

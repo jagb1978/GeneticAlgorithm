@@ -26,7 +26,7 @@ public class DavisOrderCrossOver implements CrossOver {
      */
     @Override
     public Individual crossOver(Individual father, Individual mother) {
-        Individual offspring = new Individual(father.size());
+        Individual offspring = new Individual(father.size(), father.getFitnessCalc());
 
         for (int i = 0; i < offspring.size(); i++) {
             if (i >= this.beggingPosition && i <= this.endPosition) {

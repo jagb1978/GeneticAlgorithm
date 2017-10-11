@@ -1,6 +1,7 @@
 package com.geneticalgorithm.beans;
 
-import com.geneticalgorithm.utils.FitnessCalc;
+
+import com.geneticalgorithm.interfaces.FitnessCalculator;
 
 import java.util.Random;
 
@@ -11,22 +12,17 @@ import java.util.Random;
  * @author Jose Gonzalez
  */
 public class Individual {
-
-    private static int defaultGeneLength = 64;
+    private int geneLength;
     private int[] genes;
     private int fitness = 0;
+    private FitnessCalculator fitnessCalc;
 
-    public Individual(){
-        FitnessCalc fitnessCalc = new FitnessCalc();
-        this.genes = new int[defaultGeneLength];
-    }
-    public Individual(int genesLength){
+    public Individual(int genesLength,FitnessCalculator fitnessCalculator ){
         this.genes = new int[genesLength];
-        FitnessCalc fitnessCalc = new FitnessCalc();
+        this.fitnessCalc = fitnessCalculator;
         generateIndividual();
     }
 
-    // Create a random individual
     public void generateIndividual() {
         Random random = new Random();
         for (int i = 0; i < size(); i++) {
@@ -35,10 +31,9 @@ public class Individual {
         }
     }
 
-    /* Getters and setters */
-    // Use this if you want to create individuals with different gene lengths
-    public static void setDefaultGeneLength(int length) {
-        defaultGeneLength = length;
+    /** Getters and setters */
+    public  void setGeneLength(int length) {
+        this.geneLength = length;
     }
 
     public int getGene(int index) {
@@ -50,14 +45,13 @@ public class Individual {
         fitness = 0;
     }
 
-    /* Public methods */
     public int size() {
         return genes.length;
     }
 
     public int getFitness() {
         if (fitness == 0) {
-            this.fitness = FitnessCalc.getFitness(this);
+            this.fitness = this.fitnessCalc.getFitnessValue(this);
         }
         return this.fitness;
     }
@@ -66,7 +60,7 @@ public class Individual {
     public String toString() {
         String geneString = "";
         for (int i = 0; i < size(); i++) {
-            geneString += getGene(i);
+            geneString += getGene(i) +",";
         }
         return geneString;
     }
@@ -75,6 +69,8 @@ public class Individual {
         return this.genes;
     }
 
-
+    public FitnessCalculator getFitnessCalc() {
+        return fitnessCalc;
+    }
 
 }

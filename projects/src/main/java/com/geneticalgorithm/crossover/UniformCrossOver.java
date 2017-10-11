@@ -27,7 +27,7 @@ public class UniformCrossOver implements CrossOver {
      */
     @Override
     public Individual crossOver(Individual father, Individual mother) {
-        Individual offspring = new Individual();
+        Individual offspring = new Individual(father.size(), father.getFitnessCalc());
 
         for (int i = 0; i < father.size(); i++) {
             if (Math.random() <= this.uniformRate) {

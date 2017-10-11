@@ -26,10 +26,10 @@ public class TournamentSelection implements ParentSelection {
      */
     @Override
     public Individual selection(Population population) {
-        Population tournament = new Population(this.tournamentSize, false);
+        Population tournament = new Population(this.tournamentSize,population.getIndividualsNumberOfGenes() ,false, population.getFitnessCalculator());
         for (int i = 0; i < this.tournamentSize; i++) {
-            int randomId = ThreadLocalRandom.current().nextInt(0, population.getIndividuals().length);
-            tournament.getIndividuals()[i] = population.getIndividuals()[randomId];
+            int randomId = ThreadLocalRandom.current().nextInt(0, population.getIndividualsArray().length);
+            tournament.getIndividualsArray()[i] = population.getIndividualsArray()[randomId];
         }
         return tournament.getFittest();
     }
