@@ -22,7 +22,7 @@ public class WholeArithmeticRecombinationCrossOver implements CrossOver {
         Individual offspring = new Individual(father.size(),father.getFitnessCalc());
 
         for (int i = 0; i < offspring.size(); i++) {
-            offspring.setGene(i, (int)(this.weight * father.getGene(i) + (1-this.weight) * mother.getGene(i)));
+            offspring.setGene(i, (int)(this.weight * (Integer)father.getGene(i).getValue() + (1-this.weight) * (Integer)mother.getGene(i).getValue()));
         }
         return offspring;
     }

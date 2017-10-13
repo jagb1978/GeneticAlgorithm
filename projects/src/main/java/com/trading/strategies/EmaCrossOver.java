@@ -22,6 +22,11 @@ public class EmaCrossOver implements Strategy {
         this.shortEma = new Ema(shortEmaPeriod);
         this.quantity = quantity;
     }
+    public EmaCrossOver(double quantity) {
+        this.longEma = new Ema();
+        this.shortEma = new Ema();
+        this.quantity = quantity;
+    }
 
     @Override
     public void updateStrategy(DataPoint dataPoint) {
@@ -69,6 +74,14 @@ public class EmaCrossOver implements Strategy {
     @Override
     public double getTotalPnl(){
         return -this.tradeList.stream().mapToDouble(Trade::getTradeValue).sum();
+    }
+
+    public Ema getShortEma() {
+        return shortEma;
+    }
+
+    public Ema getLongEma() {
+        return longEma;
     }
 
 }

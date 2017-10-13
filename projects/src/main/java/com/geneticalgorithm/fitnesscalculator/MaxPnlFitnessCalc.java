@@ -1,12 +1,17 @@
 package com.geneticalgorithm.fitnesscalculator;
 
 import com.geneticalgorithm.beans.Individual;
-
 import com.geneticalgorithm.interfaces.FitnessCalculator;
 import com.trading.interfaces.Strategy;
 import com.trading.simulation.Simulation;
 import com.trading.strategies.EmaCrossOver;
 
+/**
+ * Calculates chromosome fitness based on
+ * its pnl value.
+ *
+ * @author Jose Gonzalez
+ */
 public class MaxPnlFitnessCalc implements FitnessCalculator {
     private String dataFilePath;
     private Simulation simulation;
@@ -17,9 +22,8 @@ public class MaxPnlFitnessCalc implements FitnessCalculator {
     }
 
     public int getFitnessValue(Individual individual) {
-        int fitness = 0;
-
-        Strategy strategy = new EmaCrossOver(individual.getGene(0),individual.getGene(1), 1);
+        Strategy strategy = new EmaCrossOver((Integer)individual.getGene(0).getValue(),
+                (Integer)individual.getGene(1).getValue(), 1);
         this.simulation.setStrategy(strategy);
         simulation.simulate();
 

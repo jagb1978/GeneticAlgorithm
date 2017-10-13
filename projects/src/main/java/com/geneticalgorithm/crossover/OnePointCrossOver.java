@@ -33,7 +33,7 @@ public class OnePointCrossOver implements CrossOver {
 
         for (int i = 0; i < offspring.size(); i++) {
 
-            offspring.setGene(i, i < crossoverPoint ? father.getGene(i) : mother.getGene(i));
+            offspring.setGene(i, i < crossoverPoint ? (Integer)father.getGene(i).getValue() : (Integer)mother.getGene(i).getValue());
         }
 
         return offspring;

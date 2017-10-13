@@ -30,7 +30,8 @@ public class MultiPointCrossOver implements CrossOver {
 
         for (int i = 0; i < offspring.size(); i++) {
             int position = i;
-            int gene = this.fatherCrossOverPoints.stream().anyMatch(value -> value == position)? father.getGene(position): mother.getGene(position);
+            int gene = this.fatherCrossOverPoints.stream().anyMatch(value -> value == position)? (Integer)father.getGene(position).getValue():
+                    (Integer) mother.getGene(position).getValue();
             offspring.setGene(i, gene);
         }
         return offspring;

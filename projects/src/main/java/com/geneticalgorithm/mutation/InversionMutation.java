@@ -23,7 +23,7 @@ public class InversionMutation implements Mutation {
     public void mutate(Individual individual) {
         int counter = 0;
         for(int i= this.begginingRange; i< this.endRange +1; i++) {
-            int geneValue =   individual.getGene(this.endRange  - counter);
+            int geneValue =   (Integer)individual.getGene(this.endRange  - counter).getValue();
             individual.setGene(i , geneValue);
             counter ++;
         }

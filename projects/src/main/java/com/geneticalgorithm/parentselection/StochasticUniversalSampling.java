@@ -20,8 +20,14 @@ public class StochasticUniversalSampling {
     }
 
     private Population selectParent(Population population) {
-        Population selectedIndividuals = new Population(this.numberOfIndividualsToChoose,population.getIndividualsNumberOfGenes() ,
-                true, population.getFitnessCalculator());
+        Population selectedIndividuals = new Population.Builder()
+                .populationSize(this.numberOfIndividualsToChoose)
+                .individualsNumberOfGenes(population.getIndividualsNumberOfGenes())
+                .initialise(true)
+                .fitnessCalculator(population.getFitnessCalculator())
+                .build();
+
+
         double totalPopulationFitness = Arrays.stream(population.getIndividualsArray()).mapToDouble(Individual::getFitness).sum();
         Arrays.sort(population.getIndividualsArray(), new SortIndividualByFitness());
         double distanceBetweenPointers = totalPopulationFitness / this.numberOfIndividualsToChoose;
