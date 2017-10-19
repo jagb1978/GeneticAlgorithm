@@ -30,9 +30,9 @@ public class DavisOrderCrossOver implements CrossOver {
 
         for (int i = 0; i < offspring.size(); i++) {
             if (i >= this.beggingPosition && i <= this.endPosition) {
-                offspring.setGene(i, (Integer)father.getGene(i).getValue() );
+                offspring.setGene(i, Double.valueOf(father.getGene(i).getValue().toString()) );
             } else {
-                offspring.setGene(i,(Integer)mother.getGene(i).getValue());
+                offspring.setGene(i, Double.valueOf(mother.getGene(i).getValue().toString()));
             }
         }
         return offspring;

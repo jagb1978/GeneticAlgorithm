@@ -31,9 +31,9 @@ public class UniformCrossOver implements CrossOver {
 
         for (int i = 0; i < father.size(); i++) {
             if (Math.random() <= this.uniformRate) {
-                offspring.setGene(i, (Integer)father.getGene(i).getValue());
+                offspring.setGene(i, Double.valueOf(father.getGene(i).getValue().toString()));
             } else {
-                offspring.setGene(i, (Integer)mother.getGene(i).getValue());
+                offspring.setGene(i, Double.valueOf(mother.getGene(i).getValue().toString()));
             }
         }
 

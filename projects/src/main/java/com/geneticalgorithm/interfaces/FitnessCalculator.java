@@ -8,6 +8,6 @@ import com.geneticalgorithm.beans.Individual;
  *
  */
 public interface FitnessCalculator {
-    int getFitnessValue(Individual individual);
+    Double getFitnessValue(Individual individual);
 
 }

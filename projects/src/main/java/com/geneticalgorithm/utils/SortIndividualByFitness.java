@@ -10,8 +10,8 @@ import java.util.Comparator;
 public class SortIndividualByFitness implements Comparator<Individual> {
     @Override
     public int compare(Individual individual1, Individual individual2) {
-        long a = individual1.getFitness();
-        long b = individual2.getFitness();
+        long a = individual1.getFitness().longValue();
+        long b = individual2.getFitness().longValue();
         return ((Long)(a -b)).intValue();
     }
 }

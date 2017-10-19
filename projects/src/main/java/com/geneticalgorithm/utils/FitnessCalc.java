@@ -35,29 +35,14 @@ public class FitnessCalc implements FitnessCalculator{
      * that in type and position the solution
      * @return the fitness value of an individual
     */
-    public  static int getFitness(Individual individual) {
+    public Double getFitnessValue(Individual individual) {
         int fitness = 0;
         for (int i = 0; i < individual.size() && i < solution.length; i++) {
-            if ((Integer)individual.getGene(i).getValue() == solution[i]) {
+            if ((int)Math.round((double)individual.getGene(i).getValue())  == solution[i]) {
                 fitness++;
             }
         }
-        return fitness;
-    }
-
-    /**
-     * The fitness function increases if the individual and gene matches
-     * that in type and position the solution
-     * @return the fitness value of an individual
-    */
-    public int getFitnessValue(Individual individual) {
-        int fitness = 0;
-        for (int i = 0; i < individual.size() && i < solution.length; i++) {
-            if ((Integer)individual.getGene(i).getValue()  == solution[i]) {
-                fitness++;
-            }
-        }
-        return fitness;
+        return (double)fitness;
     }
 
     /**

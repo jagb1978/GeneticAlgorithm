@@ -21,12 +21,12 @@ public class MaxPnlFitnessCalc implements FitnessCalculator {
         this.simulation = new Simulation(this.dataFilePath);
     }
 
-    public int getFitnessValue(Individual individual) {
-        Strategy strategy = new EmaCrossOver((Integer)individual.getGene(0).getValue(),
-                (Integer)individual.getGene(1).getValue(), 1);
+    public Double getFitnessValue(Individual individual) {
+        Strategy strategy = new EmaCrossOver(Math.round(Double.valueOf(individual.getGene(0).getValue().toString()).longValue()),
+                Math.round(Double.valueOf(individual.getGene(1).getValue().toString()).longValue()), 1);
         this.simulation.setStrategy(strategy);
-        simulation.simulate();
+        this.simulation.simulate();
 
-        return (int)Math.round(simulation.getTotalPnl()*100);
+        return (double)Math.round(simulation.getTotalPnl()*100);
     }
 }

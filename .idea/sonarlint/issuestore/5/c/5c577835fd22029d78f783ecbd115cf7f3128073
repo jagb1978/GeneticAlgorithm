@@ -1,12 +1,29 @@
 
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8‘Ã¶“ï+
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8µÖéŒñ+
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(»²Óñ8‘Ã¶“ï+
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8ÔôÁñ+
 Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Æ°ÿÿÿÿÿ8ÚóÎôì+
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8ÔôÁñ+
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8ÚóÎôì+
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8µÖéŒñ+
 Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8ÚóÎôì+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(èíÅ¼8‰î¨ğ+
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ°ÿÿÿÿÿ8µÖéŒñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8ÔôÁñ+
+jsquid:UselessImportCheck"<Remove this unused import 'com.trading.interfaces.Strategy'.(á¨Öùÿÿÿÿ8äÚÄñ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8ÔôÁñ+
+nsquid:UselessImportCheck"@Remove this unused import 'com.trading.strategies.EmaCrossOver'.(¥”Éüùÿÿÿÿ8äÚÄñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8ÉÏæŒñ+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¬¯ï‘şÿÿÿÿ8ó®ˆŒñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ°ÿÿÿÿÿ8ÔôÁñ+
+psquid:UselessImportCheck"BRemove this unused import 'com.geneticalgorithm.beans.Individual'.(ÀÃ§¶ıÿÿÿÿ8ŒÜş‹ñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8µÖéŒñ+
+`squid:UnusedPrivateMethod"1Remove this unused private "runEvolution" method.(¢Æ‡ëûÿÿÿÿ8³Âñ+
+bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ƒƒ”Üúÿÿÿÿ8ó®ˆŒñ+
+bsquid:S1226"GIntroduce a new variable instead of reusing the parameter "population".(ò¶E8ÉÏæŒñ+
+nsquid:S1192"MDefine a constant instead of duplicating this literal "Generation: " 4 times.(¿ú“ûÿÿÿÿ8ÔôÁñ+

@@ -2,40 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6210a6-ca41-436e-86d3-6ff7b3075d0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Gene.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/DavisOrderCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/MultiPointCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/OnePointCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/UniformCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/InversionMutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/utils/FitnessCalc.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/015d6473f6bc935dc5f7c52cca59dde514710415" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/015d6473f6bc935dc5f7c52cca59dde514710415" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/0556d1a0d3b2125f03623f14e3eb97607299c11e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/0556d1a0d3b2125f03623f14e3eb97607299c11e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36a2c63f545b45dd47c4030a23dd5294451df6ca" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36a2c63f545b45dd47c4030a23dd5294451df6ca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/390b899b8dd100ecf55957ba59660eab6bbe17da" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/390b899b8dd100ecf55957ba59660eab6bbe17da" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4abc3a5596fd98abe407ab215ed2d7e383071b67" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4abc3a5596fd98abe407ab215ed2d7e383071b67" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c577835fd22029d78f783ecbd115cf7f3128073" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c577835fd22029d78f783ecbd115cf7f3128073" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c7e394fbf0061f43e88dbb37428dce5bbe8a466" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c7e394fbf0061f43e88dbb37428dce5bbe8a466" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac4053a0cd05946990facc5210a7dac836ef1662" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac4053a0cd05946990facc5210a7dac836ef1662" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae10052cdebc66e68b042fdc50251129774ac53b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae10052cdebc66e68b042fdc50251129774ac53b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0252b6c42610f1620f6d5a12f50d7660523652d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0252b6c42610f1620f6d5a12f50d7660523652d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4955a14ebe8e919bbe5623afd3a5d747d3c3915" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4955a14ebe8e919bbe5623afd3a5d747d3c3915" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/cae45f7ca63e47686088b419de4a095386df6842" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/cae45f7ca63e47686088b419de4a095386df6842" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d53afb296c3e21529f13c6e1f7573b113c367ffe" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d53afb296c3e21529f13c6e1f7573b113c367ffe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef92579ee061c359f5032da2566d61643c33d813" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef92579ee061c359f5032da2566d61643c33d813" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdb8f287a3187ae0b3865be569e4f960f411e61d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdb8f287a3187ae0b3865be569e4f960f411e61d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/application/ApplicationSimpleGA.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/application/ApplicationSimpleGA.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/beans/Individual.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/beans/Individual.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/beans/Population.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/beans/Population.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/evolution/Algorithm.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/evolution/Algorithm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/DavisOrderCrossOver.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/DavisOrderCrossOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/MultiPointCrossOver.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/MultiPointCrossOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/OnePointCrossOver.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/OnePointCrossOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/UniformCrossOver.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/UniformCrossOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/interfaces/FitnessCalculator.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/interfaces/FitnessCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/BitFlipMutation.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/BitFlipMutation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/InversionMutation.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/InversionMutation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/RandomSettingMutation.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/RandomSettingMutation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/ScrambleMutation.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/ScrambleMutation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/SwapMutation.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/mutation/SwapMutation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/parentselection/RouletteWheelSelection.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/parentselection/RouletteWheelSelection.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/parentselection/StochasticUniversalSampling.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/parentselection/StochasticUniversalSampling.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/parentselection/TournamentSelection.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/parentselection/TournamentSelection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trading/indicators/Ema.class" afterPath="$PROJECT_DIR$/target/classes/com/trading/indicators/Ema.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trading/strategies/EmaCrossOver.class" afterPath="$PROJECT_DIR$/target/classes/com/trading/strategies/EmaCrossOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/utils/FitnessCalc.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/utils/FitnessCalc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/utils/SortIndividualByFitness.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticalgorithm/utils/SortIndividualByFitness.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TournamentSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TournamentSelection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/Ema.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/Ema.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/trading/strategies/EmaCrossOver.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/trading/strategies/EmaCrossOver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,125 +60,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaxPnlFitnessCalc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnePointCrossOver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Gene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Individual.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#642#671#0" expanded="true" />
-                <element signature="method#setGene#0;class#Individual#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FitnessCalc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
-              <folding>
-                <element signature="docComment;method#getFitnessValue#0;class#FitnessCalc#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DavisOrderCrossOver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Population.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="67" column="117" lean-forward="false" selection-start-line="67" selection-start-column="117" selection-end-line="67" selection-end-column="117" />
-              <folding>
-                <element signature="class#Builder#0;class#Population#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InversionMutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WholeArithmeticRecombinationCrossOver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="24" column="109" lean-forward="false" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiPointCrossOver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/FlipMutation.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/ParentSelection.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java" />
@@ -224,21 +116,23 @@
         <option value="$PROJECT_DIR$/projects/src/main/java/com/trading/simulation/Simulation.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TournamentSelection.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/trading/strategies/EmaCrossOver.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/Ema.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Gene.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java" />
       </list>
     </option>
   </component>
@@ -271,8 +165,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2101" />
-    <option name="y" value="40" />
+    <option name="x" value="1970" />
+    <option name="y" value="23" />
     <option name="width" value="1611" />
     <option name="height" value="921" />
   </component>
@@ -291,9 +185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -491,6 +385,124 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indicators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enums" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1171,7 +1183,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2101" y="40" width="1611" height="921" extended-state="0" />
+    <frame x="1970" y="23" width="1611" height="921" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1182,50 +1194,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18036966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24657534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2278954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45828146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2555768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2988792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18098159" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24665178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24601227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1271,63 +1259,23 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/RandomSettingMutation.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="55" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="this.individuals" language="JAVA" />
-        <watch expression="population.getIndividuals()[index].getFitness()" language="JAVA" />
-        <watch expression="simulation.getTotalPnl()*1000000000" language="JAVA" />
-        <watch expression="this.tradeList" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1489#1516#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/FitnessProportionateSelection.java" />
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/FitnessBasedSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/AgeBasedSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/ParentSelection.java" />
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/CrossOver.java" />
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/Mutation.java" />
@@ -1345,13 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/ScrambleMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1359,20 +1300,285 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/KstIndicator.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/SecuritiesPortfolioTimeSeries.java" />
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/SecurityTimeSeries.java" />
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/TimeSeries.java" />
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/PortfolioDataPoints.java" />
+    <entry file="file://$PROJECT_DIR$/projects/src/SecuritiesDataTable.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="-4478">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/interfaces/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/RateOfChange.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+        <state relative-caret-position="675">
+          <caret line="60" column="27" lean-forward="false" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="docComment;method#evolvePopulation#0;class#Algorithm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/RandomSettingMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Gene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="33" column="94" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/CrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/Mutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/ParentSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RouletteWheelSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TournamentSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#selection#0;class#TournamentSelection#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/AgeBasedSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/selection/FitnessBasedSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/SortIndividualByFitness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/DataPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/Trade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/utils/TimeSeriesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/strategies/EmaCrossOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/simulation/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1385,289 +1591,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/enums/MarketState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/enums/ActionEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/SecuritiesPortfolioTimeSeries.java" />
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/SecurityTimeSeries.java" />
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/TimeSeries.java" />
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/PortfolioDataPoints.java" />
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/enums/PositionStateEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/Trade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/utils/TimeSeriesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/RandomSettingMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/SecuritiesDataTable.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4478">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RouletteWheelSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RankSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/RandomSelection.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/RateOfChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/StochasticUniversalSampling.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/KstIndicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/parentselection/TournamentSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#selection#0;class#TournamentSelection#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/strategies/EmaCrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3141#3142#0" expanded="true" />
-            <element signature="e#3171#3172#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/indicators/Ema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="446">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/simulation/Simulation.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/enums/PositionStateEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/beans/DataPoint.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/enums/MarketState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#473#474#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/interfaces/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/application/ApplicationSimpleGA.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/trading/enums/ActionEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1489#1516#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/evolution/Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-          <folding>
-            <element signature="docComment;method#evolvePopulation#0;class#Algorithm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/UniformCrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/utils/FitnessCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="55" column="59" lean-forward="false" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
-          <folding>
-            <element signature="docComment;method#getFitnessValue#0;class#FitnessCalc#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/mutation/InversionMutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="109" lean-forward="false" selection-start-line="24" selection-start-column="109" selection-end-line="24" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/MultiPointCrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/fitnesscalculator/MaxPnlFitnessCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/OnePointCrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Gene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="67" column="117" lean-forward="false" selection-start-line="67" selection-start-column="117" selection-end-line="67" selection-end-column="117" />
-          <folding>
-            <element signature="class#Builder#0;class#Population#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#642#671#0" expanded="true" />
-            <element signature="method#setGene#0;class#Individual#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -73,3 +73,17 @@ o
 ?projects/src/main/java/com/trading/strategies/EmaCrossOver.java,d/5/d595e0955afdb7e2cd550e17af2129df9b683bb7
 g
 7projects/src/main/java/com/trading/beans/DataPoint.java,b/6/b65fa6b5eef1e296b0209186a7b5b8ded2318975
+c
+3projects/src/main/java/com/trading/beans/Trade.java,0/3/03fafb74b6f27d40ab9ab500e8858fb7a5709af3
+m
+=projects/src/main/java/com/trading/utils/TimeSeriesUtils.java,f/d/fd423036b5cedeeb9f5e1231c95d6b6408de0f48
+T
+$projects/src/SecuritiesDataTable.csv,f/c/fcb98aa919fdac4a0079dd732418bf43da5406f1
+k
+;projects/src/main/java/com/trading/interfaces/Strategy.java,8/4/849baaf320590e416b1c8e10d0c2e14bc7190d8c
+k
+;projects/src/main/java/com/geneticalgorithm/beans/Gene.java,c/a/cafbdca6dfb5a4d2350f56aa06daf9861ca7f758
+h
+8projects/src/main/java/com/trading/enums/ActionEnum.java,3/6/36078bfa79d3210540983f6505242f5a0860c66a
+o
+?projects/src/main/java/com/trading/enums/PositionStateEnum.java,4/9/4945a868c0d38c7609e5c72b780d660136b04f5e

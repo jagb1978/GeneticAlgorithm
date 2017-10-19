@@ -11,11 +11,10 @@ import java.util.Random;
  *
  * @author Jose Gonzalez
  */
-
 public class Individual {
     private int geneLength;
     private Map<Integer,Gene> genes = new HashMap<>();
-    private int fitness = 0;
+    private Double fitness = null;
     private FitnessCalculator fitnessCalc;
 
     public Individual(int genesLength,FitnessCalculator fitnessCalculator ){
@@ -23,7 +22,8 @@ public class Individual {
         this.fitnessCalc = fitnessCalculator;
         generateIndividual();
     }
-    @SuppressWarnings("rawtypes")
+
+
     public void generateIndividual() {
         Random random = new Random();
         for (int i = 0; i < this.geneLength; i++) {
@@ -42,20 +42,20 @@ public class Individual {
         return this.genes.get(index);
     }
 
-    public void setGene(int index, int value) {
+    public void setGene(int index, double value) {
       //  this.genes[index] = value;
-        Gene gene = new Gene<Integer>();
+        Gene gene = new Gene<Double>();
         gene.setValue(value);
         this.genes.put(index,gene);
-        this.fitness = 0;
+        this.fitness = null;
     }
 
     public int size() {
         return this.genes.size();
     }
 
-    public int getFitness() {
-        if (this.fitness == 0) {
+    public Double getFitness() {
+        if (this.fitness == null) {
             this.fitness = this.fitnessCalc.getFitnessValue(this);
         }
         return this.fitness;
