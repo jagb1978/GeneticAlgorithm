@@ -11,27 +11,28 @@ import java.util.Random;
  *
  * @author Jose Gonzalez
  */
-public class Individual {
+public class Individual<T> {
     private int geneLength;
     private Map<Integer,Gene> genes = new HashMap<>();
     private Double fitness = null;
     private FitnessCalculator fitnessCalc;
+    private Map<Integer,GeneType> geneMap;
 
-    public Individual(int genesLength,FitnessCalculator fitnessCalculator ){
+    public Individual(int genesLength,FitnessCalculator fitnessCalculator,Map<Integer,GeneType> geneMap ){
         this.geneLength = genesLength;
         this.fitnessCalc = fitnessCalculator;
-        generateIndividual();
+        this.geneMap = geneMap;
+
     }
 
-
-    public void generateIndividual() {
-        Random random = new Random();
-        for (int i = 0; i < this.geneLength; i++) {
-            Gene gene = new Gene<Integer>();
-            gene.setValue(random.nextInt(100));
+    public void generateIndividual(Map<Integer,GeneType> geneMap) {
+        for (int i = 0; i < geneMap.size(); i++) {
+            Gene gene = new Gene<T>(geneMap.get(i));
+            gene.setRandomValue();
             this.genes.put(i,gene) ;
         }
     }
+
 
     /** Getters and setters */
     public  void setGeneLength(int length) {
@@ -42,10 +43,17 @@ public class Individual {
         return this.genes.get(index);
     }
 
-    public void setGene(int index, double value) {
-      //  this.genes[index] = value;
-        Gene gene = new Gene<Double>();
-        gene.setValue(value);
+    public void setGene(int index, Gene gene) {
+        Gene newGene = new Gene<>(gene.getGeneType());
+
+        newGene.setValue(gene.getValue());
+        this.genes.put(index,newGene);
+        this.fitness = null;
+    }
+
+    public void setRandomGene(int index, GeneType geneType) {
+        Gene gene = new Gene<T>(geneType);
+        gene.setRandomValue();
         this.genes.put(index,gene);
         this.fitness = null;
     }
@@ -76,6 +84,10 @@ public class Individual {
 
     public FitnessCalculator getFitnessCalc() {
         return fitnessCalc;
+    }
+
+    public Map<Integer, GeneType> getGeneMap() {
+        return geneMap;
     }
 
 }

@@ -1,5 +1,6 @@
 package com.geneticalgorithm.mutation;
 
+import com.geneticalgorithm.beans.Gene;
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.interfaces.Mutation;
 
@@ -23,8 +24,7 @@ public class InversionMutation implements Mutation {
     public void mutate(Individual individual) {
         int counter = 0;
         for(int i= this.begginingRange; i< this.endRange +1; i++) {
-            int geneValue =   (Integer)individual.getGene(this.endRange  - counter).getValue();
-            individual.setGene(i , geneValue);
+            individual.setGene(i , new Gene( individual.getGene(this.endRange  - counter)));
             counter ++;
         }
     }

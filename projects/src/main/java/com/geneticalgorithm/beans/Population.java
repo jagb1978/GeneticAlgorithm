@@ -3,6 +3,7 @@ package com.geneticalgorithm.beans;
 import com.geneticalgorithm.interfaces.FitnessCalculator;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Map;
 
 /**
  * Manages the populations
@@ -14,25 +15,28 @@ public class Population {
     private FitnessCalculator fitnessCalculator;
     private int individualsNumberOfGenes;
     private Individual fittestIndividual;
+    private Map<Integer, GeneType> geneMap;
 
     public static class Builder {
         private int populationSize;
         private FitnessCalculator fitnessCalculator;
         private int individualsNumberOfGenes;
         private boolean initialise;
+        private Map<Integer, GeneType> geneMap;
 
         public Builder populationSize(int populationSize) {
             this.populationSize = populationSize;
             return this;
         }
 
-        public Builder fitnessCalculator(FitnessCalculator fitnessCalculator) {
-            this.fitnessCalculator = fitnessCalculator;
+        public Builder geneMap( Map<Integer, GeneType> geneMap) {
+            this.geneMap = geneMap;
             return this;
         }
 
-        public Builder individualsNumberOfGenes(int individualsNumberOfGenes) {
-            this.individualsNumberOfGenes = individualsNumberOfGenes;
+
+        public Builder fitnessCalculator(FitnessCalculator fitnessCalculator) {
+            this.fitnessCalculator = fitnessCalculator;
             return this;
         }
 
@@ -49,19 +53,23 @@ public class Population {
 
     private Population(Builder builder){
         this.individualsArray =  new Individual[builder.populationSize];
-        this.individualsNumberOfGenes = builder.individualsNumberOfGenes;
         this.fitnessCalculator = builder.fitnessCalculator;
+        this.geneMap = builder.geneMap;
+        this.individualsNumberOfGenes = this.geneMap.size();
         int individualNumber = 0;
 
-        if (builder.initialise) {
+        if(builder.initialise) {
             for (Individual individual : this.individualsArray) {
-                individual = new Individual( this.individualsNumberOfGenes ,this.fitnessCalculator);
-                individual.generateIndividual();
+                individual = new Individual(this.individualsNumberOfGenes, this.fitnessCalculator, this.geneMap);
+                individual.generateIndividual(this.geneMap);
                 this.individualsArray[individualNumber] = individual;
                 individualNumber++;
             }
         }
+
     }
+
+
 
     public Individual getFittest() {
         if(this.fittestIndividual == null) {
@@ -80,6 +88,10 @@ public class Population {
 
     public int getIndividualsNumberOfGenes() {
         return individualsNumberOfGenes;
+    }
+
+    public Map<Integer, GeneType> getGeneMap() {
+        return geneMap;
     }
 
 }

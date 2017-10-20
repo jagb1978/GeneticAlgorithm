@@ -30,7 +30,6 @@ public class RankSelection implements ParentSelection {
 
     @Override
     public Individual selection(Population population) {
-        //Population selectedPopulation = new Population(this.selectedPopulationSize, false);
         Arrays.sort(population.getIndividualsArray(), new SortIndividualByFitness());
 
         int index = 1;

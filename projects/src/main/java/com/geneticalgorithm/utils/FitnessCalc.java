@@ -38,7 +38,7 @@ public class FitnessCalc implements FitnessCalculator{
     public Double getFitnessValue(Individual individual) {
         int fitness = 0;
         for (int i = 0; i < individual.size() && i < solution.length; i++) {
-            if ((int)Math.round((double)individual.getGene(i).getValue())  == solution[i]) {
+            if (Math.round((int)individual.getGene(i).getValue())  == solution[i]) {
                 fitness++;
             }
         }

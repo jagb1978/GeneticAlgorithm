@@ -31,8 +31,7 @@ public class RandomSettingMutation implements Mutation {
     public void mutate(Individual individual) {
         for (int i = 0; i < individual.size(); i++) {
             if (Math.random() <= this.mutationRate) {
-                int gene =   ThreadLocalRandom.current().nextInt(this.minLimit, this.maxLimit );
-                individual.setGene(i, gene);
+                individual.setRandomGene(i, individual.getGene(i).getGeneType());
             }
         }
     }

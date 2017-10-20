@@ -1,5 +1,6 @@
 package com.geneticalgorithm.mutation;
 
+import com.geneticalgorithm.beans.Gene;
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.interfaces.Mutation;
 
@@ -8,7 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @author Jose Gonzalez
  */
-public class SwapMutation implements Mutation {
+public class SwapMutation<T> implements Mutation {
     private int minLimit;
     private int maxLimit;
     private int numberOfGenesToMutate;
@@ -27,8 +28,7 @@ public class SwapMutation implements Mutation {
     public void mutate(Individual individual) {
         for(int i =0 ; i< this.numberOfGenesToMutate; i++) {
             int position = ThreadLocalRandom.current().nextInt(0, individual.size());
-            int geneValue =   ThreadLocalRandom.current().nextInt(this.minLimit, this.maxLimit );
-            individual.setGene(position , geneValue);
+            individual.setRandomGene(position , individual.getGene(position).getGeneType());
         }
     }
 

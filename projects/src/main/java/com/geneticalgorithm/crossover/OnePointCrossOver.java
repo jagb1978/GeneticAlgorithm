@@ -28,12 +28,12 @@ public class OnePointCrossOver implements CrossOver {
      */
     @Override
     public Individual crossOver(Individual father, Individual mother) {
-        Individual offspring = new Individual(father.size(), father.getFitnessCalc());
+        Individual offspring = new Individual(father.size(), father.getFitnessCalc(),father.getGeneMap());
         double crossoverPoint = this.crossoverFraction * father.size();
 
         for (int i = 0; i < offspring.size(); i++) {
 
-            offspring.setGene(i, i < crossoverPoint ? Double.valueOf(father.getGene(i).getValue().toString()) : Double.valueOf(mother.getGene(i).getValue().toString()));
+            offspring.setGene(i, i < crossoverPoint ? father.getGene(i) : mother.getGene(i));
         }
 
         return offspring;

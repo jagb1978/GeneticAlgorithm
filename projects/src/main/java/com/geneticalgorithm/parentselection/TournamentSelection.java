@@ -28,8 +28,8 @@ public class TournamentSelection implements ParentSelection {
     public Individual selection(Population population) {
         Population tournament = new Population.Builder()
                 .populationSize(this.tournamentSize)
-                .individualsNumberOfGenes(population.getIndividualsNumberOfGenes())
                 .initialise(false)
+                .geneMap(population.getGeneMap())
                 .fitnessCalculator(population.getFitnessCalculator())
                 .build();
 

@@ -27,8 +27,7 @@ public class ScrambleMutation implements Mutation {
     @Override
     public void mutate(Individual individual) {
         for(int i= this.begginingRange; i< this.endRange +1; i++) {
-            int geneValue =   ThreadLocalRandom.current().nextInt(this.minLimit, this.maxLimit );
-            individual.setGene(i , geneValue);
+            individual.setRandomGene(i , individual.getGene(i).getGeneType());
         }
     }
 

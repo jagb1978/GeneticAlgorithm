@@ -1,5 +1,7 @@
 package com.geneticalgorithm.application;
 
+import com.geneticalgorithm.Enums.ValueType;
+import com.geneticalgorithm.beans.GeneType;
 import com.geneticalgorithm.beans.Individual;
 import com.geneticalgorithm.beans.Population;
 import com.geneticalgorithm.crossover.UniformCrossOver;
@@ -11,8 +13,12 @@ import com.geneticalgorithm.interfaces.Mutation;
 import com.geneticalgorithm.interfaces.ParentSelection;
 import com.geneticalgorithm.mutation.RandomSettingMutation;
 import com.geneticalgorithm.parentselection.*;
+import com.geneticalgorithm.utils.FitnessCalc;
 import com.trading.interfaces.Strategy;
 import com.trading.strategies.EmaCrossOver;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Simple GA application
@@ -22,7 +28,6 @@ import com.trading.strategies.EmaCrossOver;
 public class ApplicationSimpleGA {
     public static void main(String[] args) {
         int populationSize = 50;
-        int individualNumberOfGenes = 2;
         double uniformRate = 0.5;
         double mutationRate = 0.5;
         int tournamentSize = 5;
@@ -33,21 +38,31 @@ public class ApplicationSimpleGA {
         CrossOver crossOver = new UniformCrossOver(uniformRate);
         Mutation mutation = new RandomSettingMutation(25, 100, mutationRate);
         FitnessCalculator fitnessCalculator = new MaxPnlFitnessCalc(dataFilePath);
+        //FitnessCalculator fitnessCalculator = new FitnessCalc();
+
+       Map<Integer, GeneType> geneMap = new HashMap<>();
+//        for(int i=0; i<64; i++){
+//            geneMap.put(i, new GeneType("Bit"+i, ValueType.VALUE_BIT));
+//        }
+        geneMap.put(0, new GeneType("ShortEma", ValueType.VALUE_INT, 25,100));
+        geneMap.put(1, new GeneType("LongEma", ValueType.VALUE_DOUBLE, 25.0,100.0));
 
         // Set a candidate solution
-        //FitnessCalc.setSolution("35,2,1,15,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,34,35");
+    //    FitnessCalc.setSolution("1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1");
+      //  FitnessCalc.setSolution("35,2,1,15,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,34,35");
         // Create an initial population
         Population population = new Population.Builder()
                 .populationSize(populationSize)
                 .fitnessCalculator(fitnessCalculator)
-                .individualsNumberOfGenes(individualNumberOfGenes)
                 .initialise(true)
+                .geneMap(geneMap)
                 .build();
-        Algorithm algorithm = new Algorithm(parentSelection, crossOver, mutation, elitism);
 
+        Algorithm algorithm = new Algorithm(parentSelection, crossOver, mutation, elitism);
 
         int generationCount = 0;
         while (generationCount < 1000) {
+  //          while (population.getFittest().getFitness()<63){
             generationCount++;
             System.out.println("Generation: " + generationCount + " Fittest: " + population.getFittest().getFitness() + " Genes: "
                     + population.getFittest());

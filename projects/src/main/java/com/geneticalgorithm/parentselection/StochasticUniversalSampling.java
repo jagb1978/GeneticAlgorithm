@@ -22,7 +22,7 @@ public class StochasticUniversalSampling {
     private Population selectParent(Population population) {
         Population selectedIndividuals = new Population.Builder()
                 .populationSize(this.numberOfIndividualsToChoose)
-                .individualsNumberOfGenes(population.getIndividualsNumberOfGenes())
+                .geneMap(population.getGeneMap())
                 .initialise(true)
                 .fitnessCalculator(population.getFitnessCalculator())
                 .build();

@@ -40,9 +40,9 @@ public class Algorithm {
     public Population evolvePopulation(Population population) {
         Population newPopulation = new Population.Builder()
                 .populationSize(population.getIndividualsArray().length)
-                .individualsNumberOfGenes(population.getIndividualsNumberOfGenes())
                 .initialise(false)
                 .fitnessCalculator(population.getFitnessCalculator())
+                .geneMap(population.getGeneMap())
                 .build();
         // Keep our best individual
         if (this.elitism) newPopulation.getIndividualsArray()[0] = population.getFittest();

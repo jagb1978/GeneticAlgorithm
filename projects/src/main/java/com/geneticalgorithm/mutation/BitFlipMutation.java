@@ -30,11 +30,9 @@ public class BitFlipMutation implements Mutation {
 
         for (int i = 0; i < individual.size(); i++) {
             if (Math.random() <= this.mutationRate) {
-                int gene = (int) Math.round(Math.random());
-                individual.setGene(i, gene);
+//                int gene = (int) Math.round(Math.random());
+//                individual.setGene(i, gene);
             }
         }
     }
-
-
 }

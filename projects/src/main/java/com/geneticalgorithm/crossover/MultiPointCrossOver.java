@@ -26,13 +26,12 @@ public class MultiPointCrossOver implements CrossOver {
      */
     @Override
     public Individual crossOver(Individual father, Individual mother) {
-        Individual offspring = new Individual(father.size(), father.getFitnessCalc());
+        Individual offspring = new Individual(father.size(), father.getFitnessCalc(),father.getGeneMap());
 
         for (int i = 0; i < offspring.size(); i++) {
             int position = i;
-            Double gene = this.fatherCrossOverPoints.stream().anyMatch(value -> value == position)? Double.valueOf(father.getGene(i).getValue().toString()):
-                    Double.valueOf(mother.getGene(i).getValue().toString());
-            offspring.setGene(i, gene);
+            offspring.setGene(i, this.fatherCrossOverPoints.stream().anyMatch(value -> value == position)? father.getGene(i):
+                    mother.getGene(i));
         }
         return offspring;
     }
