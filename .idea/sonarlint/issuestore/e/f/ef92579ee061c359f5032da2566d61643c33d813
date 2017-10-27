@@ -1,3 +1,4 @@
 
+Osquid:S1068".Remove this unused "geneLength" private field.(¤…õöùÿÿÿÿ8¾ƒçÊó+
 =squid:S1643"Use a StringBuilder instead.(ÆÕè‰ÿÿÿÿÿ8ÚóÎôì+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(º»úÿÿÿÿÿ8Œ‘Ò¦ñ+
+[squid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8™ Ëó+

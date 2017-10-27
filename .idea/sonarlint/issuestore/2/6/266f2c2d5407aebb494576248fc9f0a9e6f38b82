@@ -1,0 +1,109 @@
+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(¤ì®Ç8ï·Ã—õ+
+=squid:S1659"!Declare "len" on a separate line.(É§÷æ8ï·Ã—õ+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(·¸‹Ò8öÕá–õ+
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÆˆÑ˜ûÿÿÿÿ8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õ²äÈ8ï·Ã—õ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(Í¨Äâüÿÿÿÿ8¹ß²—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÚü†8ï·Ã—õ+
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øğ²ÿÿÿÿÿ8ï·Ã—õ+
+@squid:S1659"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ8ï·Ã—õ+
+isquid:S1226"HIntroduce a new variable instead of reusing the parameter "buffercount".(ÛÆÓ‡üÿÿÿÿ8ï·Ã—õ+
+isquid:S1226"HIntroduce a new variable instead of reusing the parameter "buffercount".(¦ñ†şÿÿÿÿ8ï·Ã—õ+
+Asquid:S1659"%Declare "parent1" on a separate line.(°Š¨Å8ï·Ã—õ+
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼˜±úÿÿÿÿ8ï·Ã—õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºÁÄ˜øÿÿÿÿ8¹ß²—õ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(°Ü€ıùÿÿÿÿ8ï·Ã—õ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(› Â…ûÿÿÿÿ8ï·Ã—õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷Àèıùÿÿÿÿ8ï·Ã—õ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(†ôïËüÿÿÿÿ8ï·Ã—õ+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(°•Ş8ï·Ã—õ+
+Dsquid:S1481"(Remove this unused "len" local variable.(É§÷æ8ï·Ã—õ+
+<squid:S1659"!Declare "fit" on a separate line.(ÒÃ¸t8ï·Ã—õ+
+@squid:S1659"Declare "i" on a separate line.(Æ¤Ôışÿÿÿÿ8ï·Ã—õ+
+Isquid:S1199"-Extract this nested code block into a method.(ùÕÛ”8¹ß²—õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ö…°òùÿÿÿÿ8ï·Ã—õ+
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ªÆÔì8ï·Ã—õ+
+@squid:S1659"$Declare "indivs" on a separate line.(°Š¨Å8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8¹ß²—õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÂàúØûÿÿÿÿ8ï·Ã—õ+
+Isquid:S1659"(Declare "competitor" on a separate line.(½¶è“øÿÿÿÿ8ï·Ã—õ+
+Asquid:S1659"%Declare "parent2" on a separate line.(°Š¨Å8ï·Ã—õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦Ô„ÿÿÿÿÿ8ï·Ã—õ+
+@squid:S1659"Declare "i" on a separate line.(½¶è“øÿÿÿÿ8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒªè8ï·Ã—õ+
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¤‡Ñì8¹ß²—õ+
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰òºşÿÿÿÿ8ï·Ã—õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(’÷á¶øÿÿÿÿ8ï·Ã—õ+
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÏıÜ8ï·Ã—õ+
+@squid:S1659"$Declare "parent" on a separate line.(°Š¨Å8ï·Ã—õ+
+vsquid:S1450"URemove the "avgLen" field and declare it as a local variable in the relevant methods.(ÁŠÌŠÿÿÿÿÿ8×Ù»—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8¹ß²—õ+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ïË’¹8ï·Ã—õ+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(À‹’„8ï·Ã—õ+
+Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ï·Ã—õ+
+Gsquid:S1659"&Declare "xo2start" on a separate line.(¯Ã¥òøÿÿÿÿ8ï·Ã—õ+
+Csquid:S1659""Declare "best" on a separate line.(áŞüàÿÿÿÿÿ8ï·Ã—õ+
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¼˜±úÿÿÿÿ8ï·Ã—õ+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(¦ëúÈ8ï·Ã—õ+
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¥÷Šñ8ï·Ã—õ+
+Esquid:S1659"$Declare "xo2end" on a separate line.(¯Ã¥òøÿÿÿÿ8ï·Ã—õ+
+Qsquid:S2696"6Make the enclosing method "static" or remove this set.(›£ºf8¹ß²—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚÂâ8ï·Ã—õ+
+Esquid:S1659"$Declare "xo1end" on a separate line.(¯Ã¥òøÿÿÿÿ8ï·Ã—õ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(³Šğ¸şÿÿÿÿ8ï·Ã—õ+
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ôëÆúÿÿÿÿ8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚÇ®·8ï·Ã—õ+
+Csquid:S1659"'Declare "offspring" on a separate line.(°Š¨Å8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(–½§Á8ï·Ã—õ+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(î®Õ¾8ï·Ã—õ+
+@squid:S1659"Declare "i" on a separate line.(šŸÖ¸ùÿÿÿÿ8ï·Ã—õ+
+ksquid:S1226"JIntroduce a new variable instead of reusing the parameter "buffercounter".(„ÍÂ÷ıÿÿÿÿ8ï·Ã—õ+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(Î¦³–8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾ƒÎ8ï·Ã—õ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(Ø®’“ûÿÿÿÿ8öÕá–õ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ëÑ¬¥üÿÿÿÿ8ï·Ã—õ+
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ªœæÿÿÿÿÿ8ï·Ã—õ+
+ˆsquid:S1450"gRemove the "fitnessAveragePopulation" field and declare it as a local variable in the relevant methods.(ËŠÎ¨ÿÿÿÿÿ8­ßº—õ+
+Asquid:S1659" Declare "a2" on a separate line.(¤êöÆûÿÿÿÿ8ï·Ã—õ+
+Rsquid:S1764"7Identical sub-expressions on both sides of operator "-"(³ğá,8¹ß²—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨üËÂ8ï·Ã—õ+
+Xsquid:S1854"7Remove this useless assignment to local variable "len".(µğğÅúÿÿÿÿ8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8¹ß²—õ+
+Zsquid:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(ºÍîıÿÿÿÿ8ï·Ã—õ+
+Qsquid:S2696"6Make the enclosing method "static" or remove this set.(Õ¯Öl8¹ß²—õ+
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾’şì8ï·Ã—õ+
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ËÖ£‹ÿÿÿÿÿ8ï·Ã—õ+
+?squid:S3010"Remove this assignment of "x".(„…üøÿÿÿÿ8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡ğãù8ï·Ã—õ+
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ıÿÿÿÿ8ï·Ã—õ+
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ğó¯8ï·Ã—õ+
+isquid:S3008"MRename this field "PC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨˜«°8öÕá–õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ8ï·Ã—õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8¹ß²—õ+
+=squid:S3010"!Remove this assignment of "seed".(îóÿ8ï·Ã—õ+
+Isquid:S1659"(Declare "competitor" on a separate line.(Æ¤Ôışÿÿÿÿ8ï·Ã—õ+
+Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ï·Ã—õ+
+lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(æí‚W
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ñ›¡ª8”’´—õ+

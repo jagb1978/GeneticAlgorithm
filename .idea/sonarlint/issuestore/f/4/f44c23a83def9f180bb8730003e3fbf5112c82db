@@ -1,2 +1,5 @@
 
-Usquid:UnusedPrivateMethod"+Remove this unused private "mutate" method.(¥ÛÇâ8±ñ—æî+
+7squid:S2326"T is not used in the class.(ÇØë8¤ı±Ëó+
+Msquid:S1068",Remove this unused "maxLimit" private field.(ÇØä«ÿÿÿÿÿ8ÒÊ¥Ëó+
+Msquid:S1068",Remove this unused "minLimit" private field.(¥³‰§şÿÿÿÿ8ÒÊ¥Ëó+
+esquid:UselessImportCheck"<Remove this unused import 'com.geneticalgorithm.beans.Gene'.(æàßú8¤ı±Ëó+
