@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * @author Jose Gonzalez
  */
 public class TournamentSelection implements ParentSelection {
-    private int tournamentSize;  //Number of individuals from the population competing in the tournament
+    private int tournamentSize;  //Number of individuals from the population competing in the selection
 
     public TournamentSelection(int tournamentSize){
         this.tournamentSize = tournamentSize;
@@ -19,7 +19,7 @@ public class TournamentSelection implements ParentSelection {
 
     /**
      * Randomly selects an individual from the population
-     * for a place in the tournament. Afterwards it selects a winner.
+     * for a place in the selection. Afterwards it selects a winner.
      *
      * @param population
      * @return fittest Individual in the Tournament
