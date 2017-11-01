@@ -1,32 +1,32 @@
 
-psquid:UselessImportCheck"BRemove this unused import 'com.geneticalgorithm.beans.Individual'.(ÀÃ§¶ýÿÿÿÿ8ŒÜþ‹ñ+
-jsquid:UselessImportCheck"<Remove this unused import 'com.trading.interfaces.Strategy'.(á¨Öžùÿÿÿÿ8äÚÄñ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8ÉÏæŒñ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8ÔôÁñ+
-bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ƒƒ”Üúÿÿÿÿ8ó®ˆŒñ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±ò´ö8ÅÏ€Îó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8ÔôÁñ+
-nsquid:UselessImportCheck"@Remove this unused import 'com.trading.strategies.EmaCrossOver'.(¥”Éüùÿÿÿÿ8äÚÄñ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ò½—8«ï‚Îó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ŽÆ°ÿÿÿÿÿ8ÔôÁñ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8ÔôÁñ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïý¢è8Ø¼Îó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8ÔôÁñ+
-`squid:UnusedPrivateMethod"1Remove this unused private "runEvolution" method.(¢Æ‡ëûÿÿÿÿ8³Âñ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8µÖéŒñ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8µÖéŒñ+
-nsquid:S1192"MDefine a constant instead of duplicating this literal "Generation: " 4 times.(¿ú“ûÿÿÿÿ8ÔôÁñ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³€Òþÿÿÿÿ8ßÍÿÍó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ŽÆ°ÿÿÿÿÿ8µÖéŒñ+
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8µÖéŒñ+
 bsquid:S1226"GIntroduce a new variable instead of reusing the parameter "population".(žò¶E8ÉÏæŒñ+
+nsquid:UselessImportCheck"@Remove this unused import 'com.trading.strategies.EmaCrossOver'.(¥”Éüùÿÿÿÿ8äÚÄñ+
+jsquid:UselessImportCheck"<Remove this unused import 'com.trading.interfaces.Strategy'.(á¨Öžùÿÿÿÿ8äÚÄñ+
+psquid:UselessImportCheck"BRemove this unused import 'com.geneticalgorithm.beans.Individual'.(ÀÃ§¶ýÿÿÿÿ8ŒÜþ‹ñ+
+bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ƒƒ”Üúÿÿÿÿ8ó®ˆŒñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8ÔôÁñ+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³€Òþÿÿÿÿ8ßÍÿÍó+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŽÆ°ÿÿÿÿÿ8ÔôÁñ+
+`squid:UnusedPrivateMethod"1Remove this unused private "runEvolution" method.(¢Æ‡ëûÿÿÿÿ8³Âñ+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïý¢è8Ø¼Îó+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8ÔôÁñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8ÔôÁñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8µÖéŒñ+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±ò´ö8ÅÏ€Îó+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8ÔôÁñ+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ò½—8«ï‚Îó+
+nsquid:S1192"MDefine a constant instead of duplicating this literal "Generation: " 4 times.(¿ú“ûÿÿÿÿ8ÔôÁñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŽÆ°ÿÿÿÿÿ8µÖéŒñ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8ÉÏæŒñ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8µÖéŒñ+
