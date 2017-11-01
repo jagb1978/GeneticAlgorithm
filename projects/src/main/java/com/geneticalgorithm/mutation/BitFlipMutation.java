@@ -19,7 +19,7 @@ public class BitFlipMutation implements Mutation {
 
     /**
      * Method that mutates individuals
-     * 1. It firstly decides whether to mutate given the mutation rate parameter or probability
+     * 1. It firstly decides whether to mutate given the crossover rate parameter or probability
      * 2. It then generates a gene value
      * 3. Sets the new gene value in the individual
      *
