@@ -2,6 +2,12 @@ package com.geneticprogrammingx.utils;
 
 import java.util.Random;
 
+/**
+ * This class is used to manage operations that
+ * assist the nodes mutation and crossover process
+
+ */
+
 public class NodeManager {
     private int functionSetStartNumber;
     private int functionSetEndNumber;

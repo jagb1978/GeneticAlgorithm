@@ -1,59 +1,0 @@
-
-csquid:S2259"GA "NullPointerException" could be thrown; "fileReader" is nullable here(¦ÈøÉ8‡àôõ+
-bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(òÔÏÇúÿÿÿÿ8’ÜÈóõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¡ğãù8Ø—çïõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8³Ùğïõ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦Ô„ÿÿÿÿÿ8³Ùğïõ+
-Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8é´‘ôõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Õ²äÈ8ï·Ã—õ+
-dsquid:S1226"HIntroduce a new variable instead of reusing the parameter "bufferCount".(¯ş£Ô8Á’íñõ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÂàúØûÿÿÿÿ8úÇ­ğõ+
-gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°‘Œ§8Ò«­òõ+
-4squid:S2095"Close this "FileReader".(Ë¾™ä8÷ğ¦ôõ+
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(°•Ş8ï·Ã—õ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¨üËÂ8³Ùğïõ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ8³Ùğïõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÚÂâ8³Ùğïõ+
-dsquid:S1226"HIntroduce a new variable instead of reusing the parameter "bufferCount".(äË®8Á’íñõ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ö…°òùÿÿÿÿ8³Ùğïõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒªè8Ò«­òõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Íó£è8³Ùğïõ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(™ïœëüÿÿÿÿ8³Ùğïõ+
-U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¤‡Ñì8¾™Æôõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(–½§Á8úÇ­ğõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8³Ùğïõ+
-Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ŠúÊğùÿÿÿÿ8ï·Ã—õ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ş’˜8—ºòïõ+
-ksquid:S1226"JIntroduce a new variable instead of reusing the parameter "bufferCounter".( İ­ùùÿÿÿÿ8ººÉñõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8³Ùğïõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8³Ùğïõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÆşŠ§8³Ùğïõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Óëó8³Ùğïõ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(’÷á¶øÿÿÿÿ8Ø—çïõ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8™ÛÃóõ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾ƒÎ8³Ùğïõ+
-Isquid:S1199"-Extract this nested code block into a method.(ùÕÛ”8¹ß²—õ+
-lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(æí‚W
-Xsquid:S1764"7Identical sub-expressions on both sides of operator "-"(»İšùÿÿÿÿ8¹ß²—õ+

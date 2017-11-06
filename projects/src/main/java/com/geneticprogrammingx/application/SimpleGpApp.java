@@ -1,10 +1,10 @@
 package com.geneticprogrammingx.application;
 
-import com.geneticprogrammingx.SimpleGP;
+import com.geneticprogrammingx.algorithm.SimpleGP;
 
 public class SimpleGpApp {
     public static void main(String[] args) {
-        String fileName = "/Users/josealfredogonzalez/IdeaProjects/GeneticAlgorithm/projects/src/problem.csv";
+        String fileName = "/Users/aft/IdeaProjects/GeneticAlgorithm/projects/src/problem.csv";
 
         long seed = -1;
 

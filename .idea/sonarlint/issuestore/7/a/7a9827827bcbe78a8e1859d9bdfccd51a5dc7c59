@@ -1,0 +1,53 @@
+
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(šÓ„ùûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾ƒÎ
+Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÓæ
+usquid:S1450"[Remove the "randomNumber" field and declare it as a local variable in the relevant methods.(ºëåğùÿÿÿÿ
+-squid:S2095"Close this "FileReader".(Ë¾™ä
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÂàúØûÿÿÿÿ8šª½ˆù+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(±Ã£
+\squid:S2259"GA "NullPointerException" could be thrown; "fileReader" is nullable here(¦ÈøÉ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(–½§Á8šª½ˆù+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨üËÂ
+Qsquid:S1764"7Identical sub-expressions on both sides of operator "-"(»İšùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡ğãù
+N"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¤‡Ñì
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ö…°òùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí
+Bsquid:S1199"-Extract this nested code block into a method.(ùÕÛ”
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚÂâ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦Ô„ÿÿÿÿÿ
+`squid:S1226"FIntroduce a new variable instead of reusing the parameter "nodeCount".(‹„×ğûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒªè
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õ²äÈ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø½Óï
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(’÷á¶øÿÿÿÿ
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(°•Ş

@@ -1,4 +1,4 @@
-package com.geneticprogrammingx;
+package com.geneticprogrammingx.algorithm;
 
 import com.geneticprogrammingx.mutation.Mutation;
 import com.geneticprogrammingx.utils.NodeManager;
@@ -40,7 +40,6 @@ public class SimpleGP {
     private Crossover crossover;
     private Mutation mutation;
 
-
     public SimpleGP(String fileName, long seed) {
         this.fitness = new double[POPULATION_SIZE];
         this.seed = seed;
@@ -55,6 +54,7 @@ public class SimpleGP {
         this.crossover = new Crossover(this.nodeManager);
         this.mutation = new Mutation(this.nodeManager,MUTATION_PROBABILITY_PER_NODE);
 
+        /** Generates a set of random numbers that are stored and that are used in the creation of terminals*/
         for (int i = 0; i < FUNCTION_SET_START; i++) {
             this.preGeneratedRandomConstantValues[i] = (this.maxRandom - this.minRandom) * random.nextDouble() + minRandom;
         }
@@ -229,10 +229,10 @@ public class SimpleGP {
         return individual;
     }
 
-    private char[][] createRandomPopulation(int n, int depth, double[] fitness) {
-        char[][] randomPopulation = new char[n][];
+    private char[][] createRandomPopulation(int populationSize, int depth, double[] fitness) {
+        char[][] randomPopulation = new char[populationSize][];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < populationSize; i++) {
             randomPopulation[i] = this.createRandomIndividual(depth);
             fitness[i] = this.fitnessFunction(randomPopulation[i]);
         }
