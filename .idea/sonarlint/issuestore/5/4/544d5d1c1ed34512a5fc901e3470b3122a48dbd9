@@ -1,5 +1,5 @@
 
-esquid:UnusedPrivateMethod";Remove this unused private "createRandomIndividual" method.(¹óÈ¿8´šÂ‰ù+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£…Ñáøÿÿÿÿ8´šÂ‰ù+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(âå’âøÿÿÿÿ8´šÂ‰ù+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(…çåŞıÿÿÿÿ8´šÂ‰ù+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(°•Ş8À™ÿù+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÃÄÖİùÿÿÿÿ8À™ÿù+

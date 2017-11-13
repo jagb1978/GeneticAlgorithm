@@ -5,9 +5,9 @@ import java.util.Random;
 /**
  * This class is used to manage operations that
  * assist the nodes mutation and crossover process
-
+ *
+ * @author Jose Gonzalez
  */
-
 public class NodeManager {
     private int functionSetStartNumber;
     private int functionSetEndNumber;
@@ -21,16 +21,14 @@ public class NodeManager {
     }
 
     /**
-     *
      *  If the point is a terminal it returns the node number +1
      *  otherwise it continues looping until it finds a terminal
      *
      *  This logic means that it returns the length of the node, understanding that the node
      *  finishes when it finds a terminal.
-     *
      * */
-    public int getNodeLength(char[] individual, int nodeNumber) {
-        return isThePointATerminal(individual, nodeNumber) ? ++nodeNumber : getNodeLength(individual, getNodeLength(individual, ++nodeNumber));
+    public int getNodeLength(char[] individual, int begginingNodeNumber) {
+        return isThePointATerminal(individual, begginingNodeNumber) ? ++begginingNodeNumber : getNodeLength(individual, getNodeLength(individual, ++begginingNodeNumber));
     }
 
     public boolean isThePointATerminal(char[] individual, int nodeNumber){
@@ -44,8 +42,6 @@ public class NodeManager {
     public int getRandomPositionOfVariableOrConstant(){
         return this.random.nextInt(this.totalNumberOfPrimitives);
     }
-
-
 
 
 }

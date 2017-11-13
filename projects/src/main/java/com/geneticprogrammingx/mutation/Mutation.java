@@ -28,10 +28,10 @@ public class Mutation {
         int mutationSite;
         char[] parentCopy = new char[nodeLength];
 
-        /** creates a copy of the individual */
+        /* creates a copy of the individual */
         System.arraycopy(parent, 0, parentCopy, 0, nodeLength);
 
-        /** Randomly mutates the individual copy. If it is a terminal it will randombly mutate the terminal
+        /* Randomly mutates the individual copy. If it is a terminal it will randomly mutate the terminal
          * and if it is function it will randomly change the functions in the node*/
         for (int i = 0; i < nodeLength; i++) {
             if (this.random.nextDouble() < this.mutationProbability) {

@@ -3,19 +3,17 @@ package com.geneticprogrammingx.parentselection;
 import java.util.Random;
 
 public class TournamentSelection {
-    private Random random= new Random();
+    private Random random = new Random();
     private int populationSize;
 
-
-    public TournamentSelection(int populationSize){
-     this.populationSize = populationSize;
+    public TournamentSelection(int populationSize) {
+        this.populationSize = populationSize;
     }
 
     public int selection(double[] fitness, int tournamentSize) {
         int bestIndividual = this.random.nextInt(this.populationSize);
         int competitor;
-        double fitnessBest = -1.0e34; // Hard Coded Value Fix!!!!!!
-
+        double fitnessBest = 0.0;
         for (int i = 0; i < tournamentSize; i++) {
             competitor = this.random.nextInt(this.populationSize);
             if (fitness[competitor] > fitnessBest) {
@@ -41,6 +39,4 @@ public class TournamentSelection {
         }
         return worstIndividual;
     }
-
-
 }

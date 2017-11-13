@@ -115,3 +115,13 @@ t
 Dprojects/src/main/java/com/geneticprogrammingx/beans/Individual.java,2/3/23cd496cd97a9dd4ba7c44d049a30a25b9b47ee0
 {
 Kprojects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java,5/4/544d5d1c1ed34512a5fc901e3470b3122a48dbd9
+‡
+Wprojects/src/main/java/com/geneticprogrammingx/parentselection/TournamentSelection.java,e/7/e72396b541c4954c0acdce74259afca4366497d9
+x
+Hprojects/src/main/java/com/geneticprogrammingx/beans/SimulationInfo.java,7/2/72a7d0e654f2a8ac5b51f03602fb5f6202873414
+”
+dprojects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java,e/3/e3c2f9d0c0aebbe0c04048ec2e13016a566e0e05
+~
+Nprojects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java,c/1/c1f93d452a3f655f326198c2c2305f8932055fac
+w
+Gprojects/src/main/java/com/geneticprogrammingx/beans/TrainDataInfo.java,6/e/6eb01142c09850aa981dc314e80b4ffd7af02e7a
