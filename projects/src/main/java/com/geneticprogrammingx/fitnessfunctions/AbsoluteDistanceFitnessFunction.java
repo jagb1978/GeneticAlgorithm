@@ -1,5 +1,6 @@
 package com.geneticprogrammingx.fitnessfunctions;
 
+import com.geneticprogrammingx.beans.Individual;
 import com.geneticprogrammingx.interfaces.FitnessFunction;
 
 /**
@@ -17,6 +18,7 @@ public class AbsoluteDistanceFitnessFunction implements FitnessFunction {
     private int numberOfVariables;
     private int numberOfDataPoints;
     private char[] program;
+    private Individual individualProgram;
     private double[][] targets;
 
     public AbsoluteDistanceFitnessFunction(double[] preGeneratedRandomConstantValues, int numberOfVariables, int numberOfDataPoints, double[][] targets) {
@@ -42,6 +44,22 @@ public class AbsoluteDistanceFitnessFunction implements FitnessFunction {
         return -fitnessValue;
     }
 
+    @Override
+    public double getFitness(Individual individual) {
+        double result;
+        double fitnessValue = 0.0;
+
+        for (int i = 0; i < this.numberOfDataPoints; i++) {
+            System.arraycopy(targets[i], 0, this.preGeneratedRandomConstantValues, 0, this.numberOfVariables);
+            this.individualProgram = individual;
+            this.primitiveCounter = 0;
+            result = run();
+            fitnessValue += Math.abs(result - this.targets[i][this.numberOfVariables]);
+        }
+
+        return -fitnessValue;
+    }
+
     /**
      * This the interpreter. The interpreter goes gene by gene
      * reads the values. The value are integers that maps to a position
@@ -52,7 +70,8 @@ public class AbsoluteDistanceFitnessFunction implements FitnessFunction {
      * @return
      */
     private double run() {
-        char primitive = this.program[primitiveCounter++];
+        char primitive = this.individualProgram.getGenes()[primitiveCounter++];
+     //   char primitive = this.program[primitiveCounter++];
         if (primitive < FUNCTION_SET_START) {
             return this.preGeneratedRandomConstantValues[primitive];
         } else {
@@ -72,6 +91,9 @@ public class AbsoluteDistanceFitnessFunction implements FitnessFunction {
                     return 0.0;
             }
         }
+
+
+
     }
 
     public int printIndividual(char[] individual, int nodeCount) {
@@ -112,5 +134,45 @@ public class AbsoluteDistanceFitnessFunction implements FitnessFunction {
         System.out.print(")");
         return a2;
     }
+
+    public int printIndividual(Individual individual, int nodeCount) {
+        int a1 = 0;
+        int a2;
+        if (individual.getGenes()[nodeCount] < FUNCTION_SET_START) {
+            if (individual.getGenes()[nodeCount] < this.numberOfVariables) {
+                System.out.print("X" + (individual.getGenes()[nodeCount] + 1) + " ");
+            } else {
+                System.out.print(preGeneratedRandomConstantValues[individual.getGenes()[nodeCount]]);
+            }
+            return ++nodeCount;
+        }
+        switch (individual.getGenes()[nodeCount]) {
+            case ADD:
+                System.out.print("(");
+                a1 = printIndividual(individual, ++nodeCount);
+                System.out.print(" + ");
+                break;
+            case SUB:
+                System.out.print("(");
+                a1 = printIndividual(individual, ++nodeCount);
+                System.out.print(" - ");
+                break;
+            case MUL:
+                System.out.print("(");
+                a1 = printIndividual(individual, ++nodeCount);
+                System.out.print(" * ");
+                break;
+            case DIV:
+                System.out.print("(");
+                a1 = printIndividual(individual, ++nodeCount);
+                System.out.print(" / ");
+                break;
+            default:
+        }
+        a2 = printIndividual(individual, a1);
+        System.out.print(")");
+        return a2;
+    }
+
 
 }

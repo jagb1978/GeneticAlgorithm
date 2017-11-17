@@ -1,5 +1,6 @@
 package com.geneticprogrammingx.crossover;
 
+import com.geneticprogrammingx.beans.Individual;
 import com.geneticprogrammingx.utils.NodeManager;
 import java.util.Random;
 
@@ -47,4 +48,28 @@ public class Crossover {
 
         return offspring;
     }
+
+    public Individual crossover(Individual parent1, Individual parent2) {
+        int nodeLengthParent1 = this.nodeManager.getNodeLength(parent1, 0);//20
+        int nodeLengthParent2 = this.nodeManager.getNodeLength(parent2, 0);//18
+
+        int crossover1Start = this.random.nextInt(nodeLengthParent1); //5
+        int crossover1End = this.nodeManager.getNodeLength(parent1, crossover1Start);//9
+
+        int crossover2start = this.random.nextInt(nodeLengthParent2);//7
+        int crossover2end = this.nodeManager.getNodeLength(parent2, crossover2start);//12
+        //5 +(12-7)+(20-9) = 21
+        int offspringNodeLength = crossover1Start + (crossover2end - crossover2start) + (nodeLengthParent1 - crossover1End);
+
+        Individual offspring = new Individual(offspringNodeLength);
+        /* Copies the parent 1 genes up to crossover1Start*/
+        System.arraycopy(parent1.getGenes(), 0, offspring.getGenes(), 0, crossover1Start);
+        /* Copies the parent 2 genes starting in crossover1Start and ending in crossover2end  */
+        System.arraycopy(parent2.getGenes(), crossover2start, offspring.getGenes(), crossover1Start, (crossover2end - crossover2start));
+        /* Copies the parent 1  genes starting in Crossover1End and places it after Crossover2end to fill all the genes in the chromosome */
+        System.arraycopy(parent1.getGenes(), crossover1End, offspring.getGenes(), crossover1Start + (crossover2end - crossover2start), (nodeLengthParent1 - crossover1End));
+
+        return offspring;
+    }
+
 }

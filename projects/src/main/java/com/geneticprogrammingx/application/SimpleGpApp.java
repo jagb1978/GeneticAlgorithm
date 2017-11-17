@@ -2,6 +2,7 @@ package com.geneticprogrammingx.application;
 
 import com.geneticprogrammingx.algorithm.SimpleGP;
 import com.geneticprogrammingx.beans.SimulationInfo;
+import com.geneticprogrammingx.exceptions.NoIndividualsException;
 
 
 public class SimpleGpApp {
@@ -26,6 +27,10 @@ public class SimpleGpApp {
                 .build();
 
         SimpleGP simpleGP = new SimpleGP(FILE_PATH, simulationInfo);
-        simpleGP.evolve();
+        try {
+            simpleGP.evolve();
+        } catch (NoIndividualsException e) {
+            e.printStackTrace();
+        }
     }
 }

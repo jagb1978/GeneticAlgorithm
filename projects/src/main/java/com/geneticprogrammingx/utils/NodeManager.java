@@ -1,5 +1,7 @@
 package com.geneticprogrammingx.utils;
 
+import com.geneticprogrammingx.beans.Individual;
+
 import java.util.Random;
 
 /**
@@ -31,9 +33,20 @@ public class NodeManager {
         return isThePointATerminal(individual, begginingNodeNumber) ? ++begginingNodeNumber : getNodeLength(individual, getNodeLength(individual, ++begginingNodeNumber));
     }
 
+    public int getNodeLength(Individual individual, int begginingNodeNumber) {
+        return isThePointATerminal(individual, begginingNodeNumber) ? ++begginingNodeNumber : getNodeLength(individual, getNodeLength(individual, ++begginingNodeNumber));
+    }
+
+
     public boolean isThePointATerminal(char[] individual, int nodeNumber){
         return individual[nodeNumber] < this.functionSetStartNumber;
     }
+
+    public boolean  isThePointATerminal(Individual individual, int nodeNumber){
+        return individual.getGenes()[nodeNumber] < this.functionSetStartNumber;
+    }
+
+
 
     public int getRandomFunction(){
         return this.random.nextInt(functionSetEndNumber - functionSetStartNumber + 1) + functionSetStartNumber;

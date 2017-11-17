@@ -1,5 +1,9 @@
 package com.geneticprogrammingx.beans;
 
+import com.geneticalgorithm.interfaces.FitnessCalculator;
+import com.geneticprogrammingx.interfaces.FitnessFunction;
+import org.omg.PortableInterceptor.INACTIVE;
+
 /**
  * Individual Gene. Contains gene sequence and fitness of the individual
  *
@@ -14,7 +18,12 @@ public class Individual {
         this.individualGenes = new char[numberOfGenes];
     }
 
-    public char[] getIndividualGenes() {
+    public void calculateIndividualFitness(FitnessFunction fitnessFunction){
+        this.individualFitness = fitnessFunction.getFitness(this);
+    }
+
+
+    public char[] getGenes() {
         return individualGenes;
     }
 
@@ -22,7 +31,7 @@ public class Individual {
         this.individualGenes = individualGenes;
     }
 
-    public double getIndividualFitness() {
+    public double getFitness() {
         return individualFitness;
     }
 
@@ -38,6 +47,7 @@ public class Individual {
         this.positionInPopulation = positionInPopulation;
     }
 
-
-
+    public int length(){
+        return this.individualGenes.length;
+    }
 }

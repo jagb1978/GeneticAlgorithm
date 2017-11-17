@@ -1,20 +1,20 @@
 
-4squid:S2095"Close this "FileReader".(Ë¾™ä8ñÊù+
-csquid:S2259"GA "NullPointerException" could be thrown; "fileReader" is nullable here(¦ÈøÉ8ñÊù+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿÇ•ÿÿÿÿÿ8ñÊù+
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(Õ²äÈ8ñÊù+
 Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ñÊù+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ã¼€8ñÊù+
+squid:S106"9Replace this use of System.out or System.err by a logger.(Û¬ñĞÿÿÿÿÿ8ñÊù+
+csquid:S2259"GA "NullPointerException" could be thrown; "fileReader" is nullable here(¦ÈøÉ8ñÊù+
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(®‰óŒúÿÿÿÿ
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Û¬ñĞÿÿÿÿÿ8ñÊù+
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÑˆÅ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã¼€8ñÊù+
+4squid:S2095"Close this "FileReader".(Ë¾™ä8ñÊù+
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(»ú¸8ñÊù+
 Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ñÊù+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑˆÅ
 Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÿÇ•ÿÿÿÿÿ8ñÊù+
+squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ñÊù+

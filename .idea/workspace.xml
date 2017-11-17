@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d6210a6-ca41-436e-86d3-6ff7b3075d0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/SimulationInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/TrainDataInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/exceptions/NoIndividualsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/111f4f55061eef8de6251b98e282fbff52c8f070" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/111f4f55061eef8de6251b98e282fbff52c8f070" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23cd496cd97a9dd4ba7c44d049a30a25b9b47ee0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23cd496cd97a9dd4ba7c44d049a30a25b9b47ee0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/544d5d1c1ed34512a5fc901e3470b3122a48dbd9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/544d5d1c1ed34512a5fc901e3470b3122a48dbd9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c577835fd22029d78f783ecbd115cf7f3128073" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c577835fd22029d78f783ecbd115cf7f3128073" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a9827827bcbe78a8e1859d9bdfccd51a5dc7c59" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a9827827bcbe78a8e1859d9bdfccd51a5dc7c59" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd423036b5cedeeb9f5e1231c95d6b6408de0f48" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd423036b5cedeeb9f5e1231c95d6b6408de0f48" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a95f1f166656c899b87ae9b5e4cfc9028d6a2050" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a95f1f166656c899b87ae9b5e4cfc9028d6a2050" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3c2f9d0c0aebbe0c04048ec2e13016a566e0e05" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3c2f9d0c0aebbe0c04048ec2e13016a566e0e05" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/algorithm/SimpleGP.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/algorithm/SimpleGP.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/application/SimpleGpApp.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/application/SimpleGpApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/beans/PopulationManager.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/beans/PopulationManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/crossover/Crossover.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/crossover/Crossover.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/utils/NodeManager.class" afterPath="$PROJECT_DIR$/target/classes/com/geneticprogrammingx/utils/NodeManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/application/SimpleGpApp.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/application/SimpleGpApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Individual.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Individual.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/crossover/Crossover.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/crossover/Crossover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/mutation/Mutation.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/mutation/Mutation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/parentselection/TournamentSelection.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/parentselection/TournamentSelection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/utils/NodeManager.java" afterPath="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/utils/NodeManager.java" />
@@ -44,67 +36,33 @@
       <file leaf-file-name="SimpleGP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            <state relative-caret-position="204">
+              <caret line="72" column="24" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
               <folding>
-                <element signature="method#setup#0;class#SimpleGP#0" expanded="false" />
+                <element signature="e#3549#3637#0" expanded="false" />
                 <element signature="method#printParameters#0;class#SimpleGP#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopulationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java">
+      <file leaf-file-name="SimpleGpApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/application/SimpleGpApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding>
-                <element signature="method#growIndividual#0;class#PopulationManager#0" expanded="false" />
-                <element signature="method#createRandomIndividualObject#0;class#PopulationManager#0" expanded="false" />
-                <element signature="method#createRandomPopulation#0;class#PopulationManager#0" expanded="false" />
-                <element signature="method#grow#0;class#PopulationManager#0" expanded="false" />
-                <element signature="docComment;method#createRandomIndividual#0;class#PopulationManager#0" expanded="false" />
-                <element signature="method#createRandomIndividual#0;class#PopulationManager#0" expanded="false" />
-                <element signature="method#createRandomPopulation#1;class#PopulationManager#0" expanded="false" />
-                <element signature="method#stats#0;class#PopulationManager#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Population.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java">
+      <file leaf-file-name="TournamentSelection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/parentselection/TournamentSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="184">
+              <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Individual.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Individual.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,19 +71,89 @@
       <file leaf-file-name="Crossover.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/crossover/Crossover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+            <state relative-caret-position="361">
+              <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodeManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/utils/NodeManager.java">
+      <file leaf-file-name="Individual.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Individual.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="410">
+              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FitnessFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimulationInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/SimulationInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopulationManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="117" column="56" lean-forward="false" selection-start-line="117" selection-start-column="56" selection-end-line="117" selection-end-column="56" />
+              <folding>
+                <element signature="method#growIndividual#0;class#PopulationManager#0" expanded="false" />
+                <element signature="method#grow#0;class#PopulationManager#0" expanded="false" />
+                <element signature="docComment;method#createRandomIndividual#0;class#PopulationManager#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Population.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1715#1716#0" expanded="true" />
+                <element signature="e#1764#1765#0" expanded="true" />
+                <element signature="e#1818#1819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbsoluteDistanceFitnessFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,20 +227,20 @@
         <option value="$PROJECT_DIR$/projects/src/problem.csv" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/SimpleGP.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/SimulationInfo.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/TrainningDataInfo.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/TrainingDataInfo.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/application/SimpleGpApp.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/exceptions/NoIndividualsException.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/utils/NodeManager.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/crossover/Crossover.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/mutation/Mutation.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/parentselection/TournamentSelection.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Individual.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/application/SimpleGpApp.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/parentselection/TournamentSelection.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/exceptions/NoIndividualsException.java" />
       </list>
     </option>
   </component>
@@ -233,10 +261,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1968" />
-    <option name="y" value="23" />
-    <option name="width" value="1808" />
-    <option name="height" value="1021" />
+    <option name="x" value="1935" />
+    <option name="y" value="28" />
+    <option name="width" value="1821" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -253,6 +281,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -366,6 +397,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="geneticprogrammingx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,6 +590,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="exceptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeneticAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geneticprogrammingx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="crossover" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -673,45 +746,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeneticAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geneticalgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1044,32 +1080,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1968" y="23" width="1808" height="1021" extended-state="0" />
-    <editor active="true" />
+    <frame x="1935" y="28" width="1821" height="977" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32712457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21151717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35622817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22706681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23046656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.427464" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30034924" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39645627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39580908" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1121,13 +1156,24 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/crossover/Crossover.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="116" />
+      <option name="time" value="131" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="result" language="JAVA" />
-        <watch expression="this.targets[i][this.varNumber]" language="JAVA" />
+        <watch expression="this.population.size()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1136,13 +1182,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/CrossOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/WholeArithmeticRecombinationCrossOver.java" />
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/crossover/DavisOrderCrossOver.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1376,20 +1415,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/SimulationInfo.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/interfaces/FitnessCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/utils/NodeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="36" column="146" lean-forward="false" selection-start-line="36" selection-start-column="146" selection-end-line="36" selection-end-column="146" />
           <folding>
-            <marker date="1509980601000" expanded="true" signature="107:369" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/mutation/Mutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/exceptions/NoIndividualsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1404,141 +1474,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticalgorithm/beans/Population.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/SimulationInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="805">
+          <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/application/SimpleGpApp.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/interfaces/FitnessFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/fitnessfunctions/AbsoluteDistanceFitnessFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="157">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="method#printIndividual#0;class#AbsoluteDistanceFitnessFunction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/utils/NodeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding>
-            <element signature="method#setup#0;class#SimpleGP#0" expanded="false" />
-            <element signature="method#printParameters#0;class#SimpleGP#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="method#growIndividual#0;class#PopulationManager#0" expanded="false" />
-            <element signature="method#createRandomIndividualObject#0;class#PopulationManager#0" expanded="false" />
-            <element signature="method#createRandomPopulation#0;class#PopulationManager#0" expanded="false" />
-            <element signature="method#grow#0;class#PopulationManager#0" expanded="false" />
-            <element signature="docComment;method#createRandomIndividual#0;class#PopulationManager#0" expanded="false" />
-            <element signature="method#createRandomIndividual#0;class#PopulationManager#0" expanded="false" />
-            <element signature="method#createRandomPopulation#1;class#PopulationManager#0" expanded="false" />
-            <element signature="method#stats#0;class#PopulationManager#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/crossover/Crossover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+        <state relative-caret-position="361">
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/parentselection/TournamentSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/exceptions/NoIndividualsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="184">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/mutation/Mutation.java">
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/application/SimpleGpApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/algorithm/SimpleGP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="72" column="24" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+          <folding>
+            <element signature="e#3549#3637#0" expanded="false" />
+            <element signature="method#printParameters#0;class#SimpleGP#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Individual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="410">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding>
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1818#1819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/com/geneticprogrammingx/beans/PopulationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="117" column="56" lean-forward="false" selection-start-line="117" selection-start-column="56" selection-end-line="117" selection-end-column="56" />
+          <folding>
+            <element signature="method#growIndividual#0;class#PopulationManager#0" expanded="false" />
+            <element signature="method#grow#0;class#PopulationManager#0" expanded="false" />
+            <element signature="docComment;method#createRandomIndividual#0;class#PopulationManager#0" expanded="false" />
           </folding>
         </state>
       </provider>

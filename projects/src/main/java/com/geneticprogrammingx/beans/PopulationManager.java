@@ -1,5 +1,6 @@
 package com.geneticprogrammingx.beans;
 
+import com.geneticprogrammingx.exceptions.NoIndividualsException;
 import com.geneticprogrammingx.interfaces.FitnessFunction;
 import com.geneticprogrammingx.utils.NodeManager;
 
@@ -34,15 +35,15 @@ public class PopulationManager {
 
         if (primitive == 0 || depth == 0) {
             primitive = (char) this.nodeManager.getRandomPositionOfVariableOrConstant();
-            individual.getIndividualGenes()[position] = primitive;
+            individual.getGenes()[position] = primitive;
 
             return position + 1;
         } else {
             primitive = (char) this.nodeManager.getRandomFunction();
-            individual.getIndividualGenes()[position] = primitive;
-            int oneChild = grow(individual.getIndividualGenes(), position + 1, max, depth - 1);
+            individual.getGenes()[position] = primitive;
+            int oneChild = grow(individual.getGenes(), position + 1, max, depth - 1);
 
-            return oneChild < 0 ? -1 : grow(individual.getIndividualGenes(), oneChild, max, depth - 1);
+            return oneChild < 0 ? -1 : grow(individual.getGenes(), oneChild, max, depth - 1);
         }
     }
     //// --------------------------------
@@ -62,11 +63,11 @@ public class PopulationManager {
         Population randomPopulation = new Population();
         for (int i = 0; i < populationSize; i++) {
             randomPopulation.add(this.createRandomIndividualObject(depth));
+            randomPopulation.getIndividual(i).calculateIndividualFitness(this.fitnessFunction);
         }
         return randomPopulation;
     }
     //
-
 
 
     private int grow(char[] individual, int position, int max, int depth) {
@@ -114,7 +115,16 @@ public class PopulationManager {
         return randomPopulation;
     }
 
+    public void stats(Population population, int generation) throws NoIndividualsException{
+        population.generatePopulationStats();
+        Individual fittestIndividual = population.getFittestIndividual();
+        double avgNodeLength = population.avgNodeLength(this.nodeManager);
 
+        System.out.print("Generation =" + generation + " Avg Fitness =" + (-population.getAveragePopulationFitness()) + " Best Fitness =" + (-fittestIndividual.getFitness()) + " Avg Size =" + avgNodeLength + "\nBest Individual: ");
+        this.fitnessFunction.printIndividual(population.getFittestIndividual(), 0);
+        this.fitnessBestPopulation = population.getFittestIndividual().getFitness();
+        System.out.print("\n");
+    }
 
     public void stats(double[] fitness, char[][] population, int gen) {
         int bestIndividual = this.random.nextInt(this.populationSize);

@@ -1,5 +1,6 @@
 package com.geneticprogrammingx.mutation;
 
+import com.geneticprogrammingx.beans.Individual;
 import com.geneticprogrammingx.utils.NodeManager;
 import java.util.Random;
 
@@ -45,5 +46,34 @@ public class Mutation {
         }
         return parentCopy;
     }
+    /**
+     * Mutates and returns a new individual selecting random mutation
+     * terminals or functions
+     * @param parent
+     * @return
+     */
+    public Individual mutation(Individual parent) {
+        int nodeLength = this.nodeManager.getNodeLength(parent, 0);
+        int mutationSite;
+        Individual parentCopy = new Individual(nodeLength);
+
+        /* creates a copy of the individual */
+        System.arraycopy(parent.getGenes(), 0, parentCopy.getGenes(), 0, nodeLength);
+
+        /* Randomly mutates the individual copy. If it is a terminal it will randomly mutate the terminal
+         * and if it is function it will randomly change the functions in the node*/
+        for (int i = 0; i < nodeLength; i++) {
+            if (this.random.nextDouble() < this.mutationProbability) {
+                mutationSite = i;
+                if (this.nodeManager.isThePointATerminal(parentCopy,mutationSite)) {
+                    parentCopy.getGenes()[mutationSite] =(char) this.nodeManager.getRandomPositionOfVariableOrConstant();
+                } else {
+                    parentCopy.getGenes()[mutationSite] =(char) this.nodeManager.getRandomFunction();
+                }
+            }
+        }
+        return parentCopy;
+    }
+
 
 }

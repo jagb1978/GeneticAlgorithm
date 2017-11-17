@@ -1,5 +1,7 @@
 package com.geneticprogrammingx.parentselection;
 
+import com.geneticprogrammingx.beans.Population;
+
 import java.util.Random;
 
 public class TournamentSelection {
@@ -23,6 +25,39 @@ public class TournamentSelection {
         }
         return bestIndividual;
     }
+
+    public int selection(Population population, int tournamentSize) {
+        int bestIndividual = this.random.nextInt(this.populationSize);
+        int competitor;
+        double fitnessBest = 0.0;
+        for (int i = 0; i < tournamentSize; i++) {
+            competitor = this.random.nextInt(this.populationSize);
+            if (population.getIndividual(competitor).getFitness()> fitnessBest) {
+                fitnessBest = population.getIndividual(competitor).getFitness();
+                bestIndividual = competitor;
+            }
+        }
+        return bestIndividual;
+    }
+
+    public int negativeSelection(Population population, int tournamentSize) {
+        int worstIndividual = this.random.nextInt(this.populationSize);
+        int competitor;
+        double fitnessWorst = 1e34;
+
+        for (int i = 0; i < tournamentSize; i++) {
+            competitor = this.random.nextInt(this.populationSize);
+
+            if (population.getIndividual(competitor).getFitness() < fitnessWorst) {
+                fitnessWorst = population.getIndividual(competitor).getFitness();
+                worstIndividual = competitor;
+            }
+        }
+        return worstIndividual;
+    }
+
+
+
 
     public int negativeSelection(double[] fitness, int tournamentSize) {
         int worstIndividual = this.random.nextInt(this.populationSize);

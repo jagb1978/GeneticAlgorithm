@@ -1,6 +1,9 @@
 package com.geneticprogrammingx.beans;
 
 import com.geneticprogrammingx.exceptions.NoIndividualsException;
+import com.geneticprogrammingx.interfaces.FitnessFunction;
+import com.geneticprogrammingx.utils.NodeManager;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,25 +12,59 @@ import java.util.List;
  */
 public class Population {
     private List<Individual> individualsList = new ArrayList<>();
+    private Individual fittestIndividual;
+    private double averagePopulationFitness;
 
     public void add(Individual individual) {
         this.individualsList.add(individual);
-        this.individualsList.get(this.individualsList.size()-1).setPositionInPopulation(this.individualsList.size()-1);
+     //   this.individualsList.get(this.individualsList.size() - 1).setPositionInPopulation(this.individualsList.size() - 1);
     }
 
-    public Individual fittestIndividual() throws NoIndividualsException {
+    public void generatePopulationStats() throws NoIndividualsException {
         if (!this.individualsList.isEmpty()) {
-            Individual fittestIndividual = this.individualsList.get(0);
+
+            Individual fittest = this.individualsList.get(0);
             double maxFitness = 0;
+            double fitnessSum = 0;
+
             for (Individual individual : this.individualsList) {
-                if (individual.getIndividualFitness() > maxFitness) {
-                    fittestIndividual = individual;
+                fitnessSum += individual.getFitness();
+                if (individual.getFitness() > maxFitness) {
+                    fittest = individual;
                 }
             }
-            return fittestIndividual;
+            this.fittestIndividual = fittest;
+            this.averagePopulationFitness = fitnessSum / this.size();
+
         } else {
             throw new NoIndividualsException("There are no individuals in the population");
         }
     }
+
+    public int size() {
+        return this.individualsList.size();
+    }
+
+    public Individual getFittestIndividual() {
+        return fittestIndividual;
+    }
+
+    public double getAveragePopulationFitness() {
+        return averagePopulationFitness;
+    }
+
+    public Individual getIndividual(int index){
+        return this.individualsList.get(index);
+    }
+    public Individual setIndividual(int index, Individual individual){
+        return  this.individualsList.set(index, individual);
+    }
+
+    public double avgNodeLength(NodeManager nodeManager){
+        return this.individualsList.stream().mapToDouble(individual ->
+            nodeManager.getNodeLength(individual,0)
+        ).average().orElse(0.0);
+    }
+
 
 }
