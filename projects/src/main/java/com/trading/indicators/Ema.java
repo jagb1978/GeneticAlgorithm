@@ -1,25 +1,27 @@
 package com.trading.indicators;
 
+import com.trading.beans.DataPoint;
+import com.trading.interfaces.Indicator;
+
 /**
- *
  * @author Jose Gonzalez
  */
-public class Ema {
+public class Ema implements Indicator {
     private int emaPeriod;
     private double multiplier;
-    private Double ema=null;
-    private Double previousEma=null;
+    private Double ema = null;
+    private Double previousEma = null;
 
-    public Ema(){
+    public Ema() {
     }
 
-    public Ema(int emaPeriod){
-        this.emaPeriod=emaPeriod;
+    public Ema(int emaPeriod) {
+        this.emaPeriod = emaPeriod;
         this.multiplier = (2 / ((double) this.emaPeriod + 1));
     }
 
-    public void calculateEma(Double value){
-        if(value!=null) {
+    public void calculateEma(Double value) {
+        if (value != null) {
             if (this.ema == null) this.ema = value;
             if (this.previousEma == null) this.previousEma = value;
             this.ema = this.previousEma + this.multiplier * (value - this.previousEma);
@@ -36,5 +38,9 @@ public class Ema {
         this.multiplier = (2 / ((double) this.emaPeriod + 1));
     }
 
-
+    @Override
+    public double getValue(DataPoint dataPoint) {
+        calculateEma(dataPoint.getPrice());
+        return getEma();
+    }
 }

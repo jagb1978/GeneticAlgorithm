@@ -69,8 +69,6 @@ public class Population {
 
     }
 
-
-
     public Individual getFittest() {
         if(this.fittestIndividual == null) {
             this.fittestIndividual = Arrays.stream(this.individualsArray).max(Comparator.comparing(Individual::getFitness)).orElse(null);

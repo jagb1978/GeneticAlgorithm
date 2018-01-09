@@ -27,6 +27,6 @@ public class MaxPnlFitnessCalc implements FitnessCalculator {
         this.simulation.setStrategy(strategy);
         this.simulation.simulate();
 
-        return (double)Math.round(simulation.getTotalPnl()*100);
+        return simulation.getTotalPnl()*100;
     }
 }

@@ -21,7 +21,6 @@ public class Simulation {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        this.strategy = strategy;
     }
 
     public void simulate(){

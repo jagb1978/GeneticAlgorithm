@@ -1,0 +1,79 @@
+
+gsquid:S1226"FIntroduce a new variable instead of reusing the parameter "nodeCount".(‹„×ğûÿÿÿÿ8Í›”óş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦Ô„ÿÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+gsquid:S1226"FIntroduce a new variable instead of reusing the parameter "nodeCount".(‹„×ğûÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ù‡¨ƒúÿÿÿÿ8Í›”óş+
+Xsquid:S1764"7Identical sub-expressions on both sides of operator "-"(»İšùÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+Isquid:S1199"-Extract this nested code block into a method.(ùÕÛ”8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+Ysquid:S1764"8Identical sub-expressions on both sides of operator "||"(ß‰ì£şÿÿÿÿ8Í›”óş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(—¼68Í›”óş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ö…°òùÿÿÿÿ8Í›”óş+
+Usquid:S1068"4Remove this unused "FUNCTION_SET_END" private field.(—ˆ…âøÿÿÿÿ8Í›”óş+
+Vsquid:S1161":Add the "@Override" annotation above this method signature(¶û¡‡8¸™şŒ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ö…°òùÿÿÿÿ8Í›”óş+
+Xsquid:S1764"7Identical sub-expressions on both sides of operator ">"(ÿ¬°²ıÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬”ü‡8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù«‘ƒ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾ƒÎ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾ƒÎ8Í›”óş+
+Xsquid:S1764"7Identical sub-expressions on both sides of operator "&"(ÑöÚûÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨üËÂ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨üËÂ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(›Äæ÷üÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+[squid:S1161":Add the "@Override" annotation above this method signature(ËüËÿÿÿÿÿ8¸™şŒ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ8Í›”óş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦Ô„ÿÿÿÿÿ8Í›”óş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤ÊŠÎıÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+Jsquid:S1068".Remove this unused "TRADESHORT" private field.(Ìš“8¢í»ôş+
+Xsquid:S1764"7Identical sub-expressions on both sides of operator "<"(Öƒäƒüÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÓæ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8Í›”óş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûÕ¶Åıÿÿÿÿ8Í›”óş+
+:squid:S2178"Correct this "&" to "&&".(ÑöÚûÿÿÿÿ8¸™şŒ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(îîÏ§øÿÿÿÿ8Í›”óş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø½Óï8Í›”óş+

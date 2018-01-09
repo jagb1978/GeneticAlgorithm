@@ -53,7 +53,7 @@ public class EmaCrossOver implements Strategy {
         if (getMarketState() == MarketState.UPWARD_TRENDING && currentPosition <= 0) {
             Trade trade = new Trade(this.currentDataPoint.getDate(), this.currentDataPoint.getPrice(), ActionEnum.BUY, this.quantity);
             this.tradeList.add(trade);
-        } else if (getMarketState() == MarketState.UPWARD_TRENDING && currentPosition >= 0){
+        } else if (getMarketState() == MarketState.DOWNWARD_TRENDING && currentPosition >= 0){
             Trade trade = new Trade(this.currentDataPoint.getDate(), this.currentDataPoint.getPrice(), ActionEnum.SELL, -this.quantity);
             this.tradeList.add(trade);
         }

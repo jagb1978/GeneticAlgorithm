@@ -45,7 +45,7 @@ public class ApplicationSimpleGA {
 //            geneMap.put(i, new GeneType("Bit"+i, ValueType.VALUE_BIT));
 //        }
         geneMap.put(0, new GeneType("ShortEma", ValueType.VALUE_INT, 25,100));
-        geneMap.put(1, new GeneType("LongEma", ValueType.VALUE_DOUBLE, 25.0,100.0));
+        geneMap.put(1, new GeneType("LongEma", ValueType.VALUE_INT, 25,100));
 
         // Set a candidate solution
     //    FitnessCalc.setSolution("1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1");
@@ -61,7 +61,7 @@ public class ApplicationSimpleGA {
         Algorithm algorithm = new Algorithm(parentSelection, crossOver, mutation, elitism);
 
         int generationCount = 0;
-        while (generationCount < 1000) {
+        while (generationCount < 100) {
   //          while (population.getFittest().getFitness()<63){
             generationCount++;
             System.out.println("Generation: " + generationCount + " Fittest: " + population.getFittest().getFitness() + " Genes: "

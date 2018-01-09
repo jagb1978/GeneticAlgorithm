@@ -24,7 +24,7 @@ public class TimeSeriesUtils {
             if (bufferedReaderCounter > 0) {
                 String[] splitLine = line.split(",");
 
-                Double closePrice = Double.parseDouble(splitLine[4]);
+                Double closePrice = Double.parseDouble(splitLine[1]);
                 LocalDate localDate = LocalDate.parse(splitLine[0], formatter);//03/01/2000
 
                 DataPoint dataPoint = new DataPoint(closePrice);

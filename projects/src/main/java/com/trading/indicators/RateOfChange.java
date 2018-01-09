@@ -1,13 +1,15 @@
 package com.trading.indicators;
 
 import com.trading.beans.DataPoint;
+import com.trading.interfaces.Indicator;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author JoseGonzalez
  */
-public class RateOfChange {
+public class RateOfChange implements Indicator{
 
     private int period;
     private Double rateOfChange;
@@ -39,4 +41,9 @@ public class RateOfChange {
     }
 
 
+    @Override
+    public double getValue(DataPoint dataPoint) {
+        this.calculateRateOfChange(dataPoint);
+        return getRateOfChange();
+    }
 }
