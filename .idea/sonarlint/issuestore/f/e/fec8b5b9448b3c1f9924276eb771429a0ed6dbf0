@@ -1,0 +1,13 @@
+
+csquid:S2259"GA "NullPointerException" could be thrown; "fileReader" is nullable here(¦ÈøÉ8Ûêòş+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õ²äÈ8Ûêòş+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑˆÅ
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Åò„£ùÿÿÿÿ8¯±Âñş+
+Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ûêòş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿÇ•ÿÿÿÿÿ8Ûêòş+
+4squid:S2095"Close this "FileReader".(Ë¾™ä8Ûêòş+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Ûêòş+

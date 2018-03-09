@@ -73,12 +73,49 @@ public class PopulationManager {
         if (position == 0) {primitive = 1;}
 
         if (primitive == 0 || depth == 0) {
+
+//            if(position>0 && this.nodeManager.isThePointAFunction(individual, position - 1)) {
+//                function = individual[this.nodeManager.getLastFunctionPosition(individual)];
+//                if ( function == "function with 'next'input type boolean"){
+//                    function.updateNextInputType
+//                    primitive = (char) this.nodeManager.getRandomBoolean;
+//                    individual[position] = primitive;
+//                    return position + 1;
+//                } else if (function == "function with 'next' input type double"){
+//                    primitive = (char) this.nodeManager.getRandomDouble();
+//                    individual[position] = primitive;
+//                    return position + 1;
+//                }
+//            }
+
+
             primitive = (char) this.nodeManager.getRandomPositionOfVariableOrConstant();
             individual[position] = primitive;
 
             return position + 1;
         } else {
+//            function = individual[this.nodeManager.getLastFunctionPosition(individual)];
+//                if ( function == "function with input type boolean"){
+//                    function.updateNextInputType
+//                    primitive = (char) this.nodeManager.getRandomFunctionOfOutputTypeBoolean();
+//                    individual[position] = primitive;
+//                    int oneChild = grow(individual, position + 1, max, depth - 1);
+//                    return oneChild < 0 ? -1 : grow(individual, oneChild, max, depth - 1);
+//                } else if (function == "function of input type double"){
+//                    function.updateNextInputType
+//                    primitive = (char) this.nodeManager.getRandomFunctionOfOutputTypeDouble();
+//                    individual[position] = primitive;
+//                    int oneChild = grow(individual, position + 1, max, depth - 1);
+//                    return oneChild < 0 ? -1 : grow(individual, oneChild, max, depth - 1);
+//                }
+
+
+
+
+
             primitive = (char) this.nodeManager.getRandomFunction();
+
+
             individual[position] = primitive;
             int oneChild = grow(individual, position + 1, max, depth - 1);
 

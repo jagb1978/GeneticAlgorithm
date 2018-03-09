@@ -1,42 +1,56 @@
 package com.trading.beans;
 
-import java.time.LocalDate;
+import com.trading.interfaces.DatedAndTimedData;
+
+import java.time.LocalDateTime;
 
 /**
+ * Simple bean containing data point information
  *
  * @author JoseGonzalez
- *
  */
-public class DataPoint {
+public class DataPoint implements DatedAndTimedData {
     private Double price;
-    private LocalDate date=null;
+    private LocalDateTime LocalDateTime =null;
+    private Instrument instrument;
+
+    public DataPoint(){}
 
     public DataPoint(Double price){
         this.price=price;
     }
 
-    public DataPoint(){
+    public DataPoint(Instrument instrument,Double price){
+        this.instrument = instrument;
+        this.price=price;
     }
 
-    public LocalDate getDate() {
-        return date;
-    }
+    /**   Getters and Setters    */
 
-    public void setDate(LocalDate date) {
-        this.date = date;
+    public Instrument getInstrument() {
+        return instrument;
     }
 
     public Double getPrice() {
         return price;
     }
 
+    public LocalDateTime getLocalDateTime() {
+        return LocalDateTime;
+    }
+
+    public void setLocalDateTime(LocalDateTime localDateTime) {
+        this.LocalDateTime = localDateTime;
+    }
+
     public void setPrice(Double price) {
         this.price = price;
     }
 
+
     public String toString(){
 
-        return date!=null? this.date+","+ this.price.toString(): "NA,"+this.price.toString();
+        return LocalDateTime !=null? this.LocalDateTime +","+ this.price.toString(): "NA,"+this.price.toString();
     }
 
 

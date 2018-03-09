@@ -1,14 +1,32 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á½²ªûÿÿÿÿ8Øøµ,
-Xsquid:S1764"7Identical sub-expressions on both sides of operator ">"(ÿ¬°²ıÿÿÿÿ8÷²ÿ¨,
 Ysquid:S1764"8Identical sub-expressions on both sides of operator "||"(ß‰ì£şÿÿÿÿ8÷²ÿ¨,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á½²ªûÿÿÿÿ8Øøµ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á½²ªûÿÿÿÿ8Øøµ,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ş²šÏùÿÿÿÿ8¢´øµ,
-Ysquid:S1764"8Identical sub-expressions on both sides of operator "&&"(Áœ»üÿÿÿÿÿ8÷²ÿ¨,
-Xsquid:S1764"7Identical sub-expressions on both sides of operator "<"(Öƒäƒüÿÿÿÿ8÷²ÿ¨,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ê˜’ıÿÿÿÿ8Øøµ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á½²ªûÿÿÿÿ8Øøµ,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Øøµ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8„—¸Ò,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(òËÔ¨8ãßÅÒ,
+Xsquid:S1764"7Identical sub-expressions on both sides of operator ">"(ÿ¬°²ıÿÿÿÿ8÷²ÿ¨,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨üËÂ8„—¸Ò,
+gsquid:S1226"FIntroduce a new variable instead of reusing the parameter "nodeCount".(‹„×ğûÿÿÿÿ8„—¸Ò,
 ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ù‡¨ƒúÿÿÿÿ8÷²ÿ¨,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(›Äæ÷üÿÿÿÿ8„—¸Ò,
+Xsquid:S1764"7Identical sub-expressions on both sides of operator "<"(Öƒäƒüÿÿÿÿ8÷²ÿ¨,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(î×ûúÿÿÿÿ8çÓÁÒ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤ÊŠÎıÿÿÿÿ8„—¸Ò,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(šÚµ‹ÿÿÿÿÿ8„—¸Ò,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8„—¸Ò,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8„—¸Ò,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(±Éê±øÿÿÿÿ8„—¸Ò,
+Ysquid:S1764"8Identical sub-expressions on both sides of operator "&&"(Áœ»üÿÿÿÿÿ8÷²ÿ¨,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8„—¸Ò,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃí8ãßÅÒ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬ñ™¦ÿÿÿÿÿ8„—¸Ò,

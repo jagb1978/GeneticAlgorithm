@@ -1,0 +1,19 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ„áÃúÿÿÿÿ8ö‘«Ô,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïÔ®´8ö‘«Ô,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™¶õ«ÿÿÿÿÿ8ö‘«Ô,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(®‰óŒúÿÿÿÿ8Üú¬Ô,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Û¬ñÐÿÿÿÿÿ8Üú¬Ô,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(š¬‰úÿÿÿÿ8ö‘«Ô,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìÓóäüÿÿÿÿ8ö‘«Ô,
+wsquid:S3008"[Rename this field "FUNCTION_SET_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥°ä„8àˆ¬Ô,
+~squid:S3008"]Rename this field "FUNCTION_SET_START" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ãÔÿÿÿÿÿ8àˆ¬Ô,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿ÜŠÀûÿÿÿÿ8ö‘«Ô,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã¼€8ö‘«Ô,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(»ú¸8ö‘«Ô,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(äçÈã8àˆ¬Ô,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€›¾Ì8ö‘«Ô,

@@ -28,7 +28,7 @@ public class TimeSeriesUtils {
                 LocalDate localDate = LocalDate.parse(splitLine[0], formatter);//03/01/2000
 
                 DataPoint dataPoint = new DataPoint(closePrice);
-                dataPoint.setDate(localDate);
+                dataPoint.setLocalDateTime(localDate);
 
                 dataPointList.add(dataPoint);
             }

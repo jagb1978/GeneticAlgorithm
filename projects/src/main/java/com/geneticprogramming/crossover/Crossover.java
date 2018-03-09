@@ -31,25 +31,32 @@ public class Crossover {
         int nodeLengthParent1 = this.nodeManager.getNodeLength(parent1, 0);
         int nodeLengthParent2 = this.nodeManager.getNodeLength(parent2, 0);
 
-        int crossover1Start = this.random.nextInt(nodeLengthParent1);
+        //only allow crossover on a function
+        //Therefore select a crossver point that is a function in parent1
+        //Check the ouput type of that function
+        //Cross it over with at point in parent 2 that is a function of the same type
+        //The end of the croosver has to be the end of that tree that encompasses the function
 
-        int crossover1End = this.nodeManager.getNodeLength(parent1, crossover1Start);
+
+        int crossoverStartPosition = this.random.nextInt(nodeLengthParent1);
+
+        int crossover1End = this.nodeManager.getNodeLength(parent1, crossoverStartPosition);
 
         int crossover2start = this.random.nextInt(nodeLengthParent2);
         int crossover2end = this.nodeManager.getNodeLength(parent2, crossover2start);
 
-        int offspringNodeLength = crossover1Start + (crossover2end - crossover2start) + (nodeLengthParent1 - crossover1End);
-
+     //   int offspringNodeLength = crossoverStartPosition + (crossover2end - crossover2start);
+        int offspringNodeLength = crossoverStartPosition + (crossover2end - crossover2start) + (nodeLengthParent1 - crossover1End);
         char[] offspring = new char[offspringNodeLength];
 
         // Copies the parent 1 genes up to crossover1Start
-        System.arraycopy(parent1, 0, offspring, 0, crossover1Start);
+        System.arraycopy(parent1, 0, offspring, 0, crossoverStartPosition);
 
         // Copies the parent 2 genes starting in crossover1Start and ending in crossover2end
-        System.arraycopy(parent2, crossover2start, offspring, crossover1Start, (crossover2end - crossover2start));
+        System.arraycopy(parent2, crossover2start, offspring, crossoverStartPosition, (crossover2end - crossover2start));
 
         // Copies the parent 1  genes starting in Crossover1End and places it after Crossover2end to fill all the genes in the chromosome
-        System.arraycopy(parent1, crossover1End, offspring, crossover1Start + (crossover2end - crossover2start), (nodeLengthParent1 - crossover1End));
+        System.arraycopy(parent1, crossover1End, offspring, crossoverStartPosition + (crossover2end - crossover2start), (nodeLengthParent1 - crossover1End));
 
         return offspring;
     }

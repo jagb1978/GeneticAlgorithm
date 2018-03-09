@@ -1,35 +1,0 @@
-
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºÛìÕýÿÿÿÿ8Ûêòþ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ„áÃúÿÿÿÿ8¶ôÉñþ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8Ûêòþ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÿÇ•ÿÿÿÿÿ8Ûêòþ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Û¬ñÐÿÿÿÿÿ8Ûêòþ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™¶õ«ÿÿÿÿÿ8Ûêòþ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Õ²äÈ8Ûêòþ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(š¬‰úÿÿÿÿ8¶ôÉñþ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(»ú¸8Ûêòþ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿ÜŠÀûÿÿÿÿ8¶ôÉñþ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹å‚åþÿÿÿÿ8¶ôÉñþ+
-ysquid:S3008"]Rename this field "FUNCTION_SET_START" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÕÄ©8«ñ¬,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïÔ®´8—æÂñþ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€›¾Ì8¶ôÉñþ+
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²ƒ»$8êÄÖ¯,
-4squid:S2095"Close this "FileReader".(Ë¾™ä8Ûêòþ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïîÁ÷8¶ôÉñþ+
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(®‰óŒúÿÿÿÿ
-wsquid:S3008"[Rename this field "FUNCTION_SET_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ž–þ8ˆÆñ¬,
-csquid:S2259"GA "NullPointerException" could be thrown; "fileReader" is nullable here(¦ÈøÉ8Ûêòþ+
-Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ûêòþ+
-Ç%squid:RedundantThrowsDeclarationCheck"‘Remove the declaration of thrown exception 'com.geneticprogramming.exceptions.NoIndividualsException', as it cannot be thrown from method's body.(ã•Òt8¸™þŒ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡Öð«8¶ôÉñþ+
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÑˆÅž
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìÓóäüÿÿÿÿ8È´Êñþ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Åò„£ùÿÿÿÿ8¯±Âñþ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(äçÈã8ÊóÁñþ+
