@@ -1,7 +1,6 @@
 package com.trading.fixedincome;
 
 import com.trading.beans.Instrument;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -11,18 +10,21 @@ import java.util.Map;
  *
  * @author Jose Gonzalez
  */
-public class Spread {
-    private Map<String, Leg> legMap = new HashMap<>();
+public class Spread extends Instrument{
+    private Map<Instrument, Leg> legMap = new HashMap<>();
     private Instrument instrument;
 
-    public Spread() {
-    }
 
-    public Spread(List<Leg> legsList) {
-        legsList.forEach(leg -> this.legMap.put(leg.getInstrument().getFeedCode(), leg));
+    public Spread(String feedCode,List<Leg> legsList) {
+        super(feedCode);
+        legsList.forEach(leg -> this.legMap.put(leg.getInstrument(), leg));
         StringBuilder stringBuilder = new StringBuilder();
 
-        this.legMap.values().forEach(leg -> stringBuilder.append(leg.getQuantity() + "_" + leg.getInstrument().getFeedCode() + "|"));
+        this.legMap.values().forEach(leg -> stringBuilder.append(leg.getQuantity())
+                .append("_")
+                .append(leg.getInstrument().getFeedCode())
+                .append("|")
+        );
 
         this.instrument = new Instrument(stringBuilder.toString());
     }
@@ -35,11 +37,11 @@ public class Spread {
         return instrument;
     }
 
-    public Map<String, Leg> getLegMap() {
+    public Map<Instrument, Leg> getLegMap() {
         return legMap;
     }
 
-    public void setLegMap(Map<String, Leg> legMap) {
+    public void setLegMap(Map<Instrument, Leg> legMap) {
         this.legMap = legMap;
     }
 

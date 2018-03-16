@@ -1,32 +1,32 @@
 
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8šÊŞ«Œ,
-bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ƒƒ”Üúÿÿÿÿ8šÊŞ«Œ,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Æ°ÿÿÿÿÿ8šÊŞ«Œ,
 `squid:UnusedPrivateMethod"1Remove this unused private "runEvolution" method.(¢Æ‡ëûÿÿÿÿ8šÊŞ«Œ,
-nsquid:S1192"MDefine a constant instead of duplicating this literal "Generation: " 4 times.(¿ú“ûÿÿÿÿ8šÊŞ«Œ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8šÊŞ«Œ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8šÊŞ«Œ,
+bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ƒƒ”Üúÿÿÿÿ8šÊŞ«Œ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïı¢è8šÊŞ«Œ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±ò´ö8šÊŞ«Œ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8šÊŞ«Œ,
 psquid:UselessImportCheck"BRemove this unused import 'com.geneticalgorithm.beans.Individual'.(ÀÃ§¶ıÿÿÿÿ8šÊŞ«Œ,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8šÊŞ«Œ,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8šÊŞ«Œ,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8šÊŞ«Œ,
-bsquid:S1226"GIntroduce a new variable instead of reusing the parameter "population".(ò¶E8šÊŞ«Œ,
-nsquid:UselessImportCheck"@Remove this unused import 'com.trading.strategies.EmaCrossOver'.(¥”Éüùÿÿÿÿ8šÊŞ«Œ,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8šÊŞ«Œ,
 gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ò½—8šÊŞ«Œ,
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8šÊŞ«Œ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±ò´ö8šÊŞ«Œ,
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì“õµ8šÊŞ«Œ,
+nsquid:UselessImportCheck"@Remove this unused import 'com.trading.strategies.EmaCrossOver'.(¥”Éüùÿÿÿÿ8šÊŞ«Œ,
 lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³€Òşÿÿÿÿ8šÊŞ«Œ,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ä°Âš8šÊŞ«Œ,
-jsquid:UselessImportCheck"<Remove this unused import 'com.trading.interfaces.Strategy'.(á¨Öùÿÿÿÿ8šÊŞ«Œ,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8šÊŞ«Œ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïı¢è8šÊŞ«Œ,
 Y
 squid:S106"9Replace this use of System.out or System.err by a logger.(Æ°ÿÿÿÿÿ8šÊŞ«Œ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ°ÿÿÿÿÿ8šÊŞ«Œ,
+bsquid:S1226"GIntroduce a new variable instead of reusing the parameter "population".(ò¶E8šÊŞ«Œ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8šÊŞ«Œ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8šÊŞ«Œ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰¶†æüÿÿÿÿ8šÊŞ«Œ,
+jsquid:UselessImportCheck"<Remove this unused import 'com.trading.interfaces.Strategy'.(á¨Öùÿÿÿÿ8šÊŞ«Œ,
+nsquid:S1192"MDefine a constant instead of duplicating this literal "Generation: " 4 times.(¿ú“ûÿÿÿÿ8šÊŞ«Œ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ú“ûÿÿÿÿ8šÊŞ«Œ,

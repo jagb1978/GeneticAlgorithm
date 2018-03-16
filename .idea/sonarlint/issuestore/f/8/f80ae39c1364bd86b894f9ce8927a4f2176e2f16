@@ -1,0 +1,6 @@
+
+Psquid:S1068"4Remove this unused "errorsTimeSeries" private field.(‚Ä€º8‘‚ëÑ¢,
+_squid:S1068">Remove this unused "theoSpreadsCurveTimeSeries" private field.(¨©âªûÿÿÿÿ8ÜÙ½ô¢,
+Šsquid:S1450"iRemove the "theoSpreadsCurveTimeSeries" field and declare it as a local variable in the relevant methods.(¨©âªûÿÿÿÿ8£°½ô¢,
+‡squid:S1450"kRemove the "actualSpreadsCurveTimeSeries" field and declare it as a local variable in the relevant methods.(¯Î†ó8¾¤ºô¢,
+\squid:S1068"@Remove this unused "actualSpreadsCurveTimeSeries" private field.(¯Î†ó8¾¤ºô¢,

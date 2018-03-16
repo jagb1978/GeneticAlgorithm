@@ -2,18 +2,19 @@ package com.trading.beans;
 
 import com.trading.enums.ActionEnum;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /**
  *
  * @author JoseGonzalez
  */
 public class Trade {
-    private LocalDate date;
+    private LocalDateTime date;
     private double price;
     private ActionEnum action;
     private double quantity;
 
-    public Trade(LocalDate date, double price , ActionEnum action, double quantity){
+    public Trade(LocalDateTime date, double price , ActionEnum action, double quantity){
         this.date=date;
         this.price=price;
         this.action=action;
@@ -24,7 +25,7 @@ public class Trade {
         return action;
     }
 
-    public LocalDate getDate() {
+    public LocalDateTime getDate() {
         return date;
     }
 

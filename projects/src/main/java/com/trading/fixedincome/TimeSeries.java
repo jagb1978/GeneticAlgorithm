@@ -1,6 +1,6 @@
 package com.trading.fixedincome;
 
-import com.trading.interfaces.DatedAndTimedData;
+import com.trading.interfaces.Data;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -13,25 +13,25 @@ import java.util.Map;
  * @author Jose Gonzalez
  */
 public class TimeSeries {
-    private Map<LocalDateTime, DatedAndTimedData> curveTimeSeries = new HashMap<>();
+    private Map<LocalDateTime, Data> curveTimeSeries = new HashMap<>();
 
     public TimeSeries(){}
 
-    public TimeSeries(List<DatedAndTimedData> curveList){
+    public TimeSeries(List<Data> curveList){
         curveList.forEach(this::addCurve);
     }
 
-    public void addCurve(DatedAndTimedData curve){
+    public void addCurve(Data curve){
         this.curveTimeSeries.put(curve.getLocalDateTime(), curve);
     }
 
-    public void addAllCurves(List<DatedAndTimedData> curveList){
+    public void addAllCurves(List<Data> curveList){
         curveList.forEach(this::addCurve);
     }
 
     /** Getter */
 
-    public Map<LocalDateTime, DatedAndTimedData> getCurveTimeSeries() {
+    public Map<LocalDateTime, Data> getCurveTimeSeries() {
         return curveTimeSeries;
     }
 

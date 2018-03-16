@@ -1,6 +1,6 @@
 package com.trading.beans;
 
-import com.trading.interfaces.DatedAndTimedData;
+import com.trading.interfaces.Data;
 
 import java.time.LocalDateTime;
 
@@ -9,23 +9,32 @@ import java.time.LocalDateTime;
  *
  * @author JoseGonzalez
  */
-public class DataPoint implements DatedAndTimedData {
+public class DataPoint implements Data {
     private Double price;
-    private LocalDateTime LocalDateTime =null;
+    private LocalDateTime localDateTime = null;
     private Instrument instrument;
 
-    public DataPoint(){}
-
-    public DataPoint(Double price){
-        this.price=price;
+    public DataPoint() {
     }
 
-    public DataPoint(Instrument instrument,Double price){
+    public DataPoint(Double price) {
+        this.price = price;
+    }
+
+    public DataPoint(Instrument instrument, Double price) {
         this.instrument = instrument;
-        this.price=price;
+        this.price = price;
     }
 
-    /**   Getters and Setters    */
+    public DataPoint(Instrument instrument, Double price, LocalDateTime localDateTime) {
+        this.instrument = instrument;
+        this.price = price;
+        this.localDateTime = localDateTime;
+    }
+
+    /**
+     * Getters and Setters
+     */
 
     public Instrument getInstrument() {
         return instrument;
@@ -36,11 +45,11 @@ public class DataPoint implements DatedAndTimedData {
     }
 
     public LocalDateTime getLocalDateTime() {
-        return LocalDateTime;
+        return localDateTime;
     }
 
     public void setLocalDateTime(LocalDateTime localDateTime) {
-        this.LocalDateTime = localDateTime;
+        this.localDateTime = localDateTime;
     }
 
     public void setPrice(Double price) {
@@ -48,11 +57,10 @@ public class DataPoint implements DatedAndTimedData {
     }
 
 
-    public String toString(){
+    public String toString() {
 
-        return LocalDateTime !=null? this.LocalDateTime +","+ this.price.toString(): "NA,"+this.price.toString();
+        return localDateTime != null ? this.localDateTime + "," + this.price.toString() : "NA," + this.price.toString();
     }
-
 
 
 }

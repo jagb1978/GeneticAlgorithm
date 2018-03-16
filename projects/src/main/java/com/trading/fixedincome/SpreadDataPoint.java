@@ -1,8 +1,7 @@
 package com.trading.fixedincome;
 
 import com.trading.beans.DataPoint;
-import com.trading.interfaces.DatedAndTimedData;
-import com.trading.utils.DataPointComparator;
+import com.trading.interfaces.Data;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -12,7 +11,7 @@ import java.util.List;
  *
  * @author Jose Gonzalez
  */
-public class SpreadDataPoint implements DatedAndTimedData {
+public class SpreadDataPoint implements Data {
     private Spread spread;
     private LocalDateTime localDateTime;
     private double spreadMarketPrice;
@@ -29,9 +28,9 @@ public class SpreadDataPoint implements DatedAndTimedData {
     }
 
     private double getSpreadPriceFromCurve(Curve curve) {
-        return curve.getDataPointList().stream()
-                .filter(dataPoint -> this.spread.getLegMap().containsKey(dataPoint.getInstrument().getFeedCode()))
-                .mapToDouble(dataPoint -> this.spread.getLegMap().get(dataPoint.getInstrument().getFeedCode()).getQuantity() * dataPoint.getPrice())
+        return curve.getData().stream()
+                .filter(dataPoint -> this.spread.getLegMap().containsKey(dataPoint.getInstrument()))
+                .mapToDouble(dataPoint -> this.spread.getLegMap().get(dataPoint.getInstrument()).getQuantity() * dataPoint.getPrice())
                 .sum();
     }
 

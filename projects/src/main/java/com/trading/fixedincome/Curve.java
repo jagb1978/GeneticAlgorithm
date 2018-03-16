@@ -1,7 +1,7 @@
 package com.trading.fixedincome;
 
 import com.trading.beans.DataPoint;
-import com.trading.interfaces.DatedAndTimedData;
+import com.trading.interfaces.Data;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Jose Gonzalez
  */
-public class Curve implements DatedAndTimedData {
+public class Curve implements Data {
     private LocalDateTime localDateTime;
     private List<DataPoint> dataPointList = new ArrayList<>();
 
@@ -31,11 +31,13 @@ public class Curve implements DatedAndTimedData {
 
     /** Getters */
 
+    @Override
     public LocalDateTime getLocalDateTime() {
         return localDateTime;
     }
 
-    public List<DataPoint> getDataPointList() {
+    @Override
+    public List<DataPoint> getData() {
         return dataPointList;
     }
 

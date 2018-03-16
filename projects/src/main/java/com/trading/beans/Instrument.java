@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
  */
 public class Instrument {
     private String feedCode;
-    private Double tenorInYears;
 
     public Instrument (String feedCode){
         this.feedCode = feedCode;
@@ -18,7 +17,5 @@ public class Instrument {
         return feedCode;
     }
 
-    public Double getTenorInYears() {
-        return tenorInYears;
-    }
+
 }
